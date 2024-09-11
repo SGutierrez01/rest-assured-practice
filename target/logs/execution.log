@@ -1,0 +1,104 @@
+2024-09-11 16:49:23.057 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-11 16:49:23.057 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-11 16:49:23.057 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-11 16:49:24.805 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "3"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "4"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "5"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "6"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "7"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "8"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "9"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "10"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "11"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "12"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "13"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "country": "USA",
+        "city": "New York",
+        "id": "14"
+    }
+]
+2024-09-11 16:49:25.285 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-11 16:49:25.293 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-11 16:49:25.293 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

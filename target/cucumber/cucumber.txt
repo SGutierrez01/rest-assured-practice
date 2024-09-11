@@ -1,0 +1,16 @@
+
+@active @smoke
+Scenario: Update the phone number of the first client named Laura # src/test/resources/features/client_testing_crud.feature:5
+  Given there are at least 10 registered clients                  # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredClientsInTheSystem()
+  When I search for the first client named "Laura"                # com.testing.api.stepDefinitions.ClientSteps.searchForFirstClientNamed(java.lang.String)
+      java.lang.AssertionError: Client named Laura not found
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.testing.api.stepDefinitions.ClientSteps.searchForFirstClientNamed(ClientSteps.java:49)
+	at ✽.I search for the first client named "Laura"(file:///C:/Users/santiago.gutierrez01/Documents/repos-tae-training/assuredApi/src/test/resources/features/client_testing_crud.feature:7)
+
+  Then I save the current phone number
+  And I update the phone number of "Laura" to "555-1234"          # com.testing.api.stepDefinitions.ClientSteps.updatePhoneNumber(java.lang.String,java.lang.String)
+  Then the response should have a status code of 200              # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the new phone number should be different from the original  # com.testing.api.stepDefinitions.ClientSteps.verifyPhoneNumberHasChanged()
+  And validates the response with the client JSON schema          # com.testing.api.stepDefinitions.ClientSteps.validatesResponseWithClientSchema()
