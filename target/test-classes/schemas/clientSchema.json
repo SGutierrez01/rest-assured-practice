@@ -18,6 +18,9 @@
     },
     "id": {
       "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
     }
   },
   "required": [
@@ -26,6 +29,7 @@
     "gender",
     "country",
     "city",
-    "id"
+    "id",
+    "phoneNumber"
   ]
 }

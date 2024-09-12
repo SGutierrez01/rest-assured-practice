@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Maria",
+    "lastName": "Garcia",
+    "gender": "Female",
+    "country": "Spain",
+    "city": "Madrid",
+    "id": "1",
+    "phoneNumber": "789-456-1230"
+  },
+  {
+    "name": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "country": "USA",
+    "city": "Los Angeles",
+    "id": "2",
+    "phoneNumber": "987-654-3210"
+  },
+  {
+    "name": "Jane",
+    "lastName": "Doe",
+    "gender": "Female",
+    "country": "Canada",
+    "city": "Toronto",
+    "id": "3",
+    "phoneNumber": "456-789-1234"
+  },
+  {
+    "name": "Carlos",
+    "lastName": "Gonzalez",
+    "gender": "Male",
+    "country": "Mexico",
+    "city": "Mexico City",
+    "id": "4",
+    "phoneNumber": "321-654-9870"
+  },
+  {
+    "name": "Laura",
+    "lastName": "Smith",
+    "gender": "Female",
+    "country": "USA",
+    "city": "New York",
+    "id": "5",
+    "phoneNumber": "123-456-7890"
+  },
+  {
+    "name": "Ahmed",
+    "lastName": "Khan",
+    "gender": "Male",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "id": "6",
+    "phoneNumber": "654-321-9870"
+  },
+  {
+    "name": "Lisa",
+    "lastName": "Wong",
+    "gender": "Female",
+    "country": "China",
+    "city": "Beijing",
+    "id": "7",
+    "phoneNumber": "987-123-4567"
+  },
+  {
+    "name": "David",
+    "lastName": "Brown",
+    "gender": "Male",
+    "country": "UK",
+    "city": "London",
+    "id": "8",
+    "phoneNumber": "123-789-4560"
+  },
+  {
+    "name": "Sofia",
+    "lastName": "Martinez",
+    "gender": "Female",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "id": "9",
+    "phoneNumber": "789-123-6540"
+  },
+  {
+    "name": "Mohammed",
+    "lastName": "Ali",
+    "gender": "Male",
+    "country": "Egypt",
+    "city": "Cairo",
+    "id": "10",
+    "phoneNumber": "654-987-3210"
+  }
+]

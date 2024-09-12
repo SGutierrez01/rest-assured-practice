@@ -2,7 +2,6 @@ package com.testing.api.stepDefinitions;
 
 import com.testing.api.models.Client;
 import com.testing.api.requests.ClientRequest;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,7 +11,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 public class ClientSteps {
@@ -31,9 +29,7 @@ public class ClientSteps {
 
         List<Client> clientList = clientRequest.getClientsEntity(response);
         if (clientList.size() < 10) {
-            for (int i = clientList.size(); i < 10; i++) {
-                clientRequest.createDefaultClient();
-            }
+            clientRequest.createDefaultClients();
         }
     }
 
@@ -49,16 +45,25 @@ public class ClientSteps {
         Assert.assertTrue("Client named " + name + " not found", lauraClient.isPresent());
 
         client = lauraClient.get();
-        originalPhoneNumber = client.getPhoneNumber();  // Assuming the Client model has a phoneNumber field
+        originalPhoneNumber = client.getPhoneNumber();
         logger.info("Found client named " + name + " with phone number: " + originalPhoneNumber);
+        if (originalPhoneNumber == null) {
+            logger.warn("Original phone number is null for client " + name);
+        }
     }
 
     @When("I update the phone number of {string} to {string}")
     public void updatePhoneNumber(String name, String newPhoneNumber) {
+        logger.info("Attempting to update the phone number of " + name + " to: " + newPhoneNumber);
         client.setPhoneNumber(newPhoneNumber);
         response = clientRequest.updateClient(client, client.getId());
         logger.info("Updated phone number to: " + newPhoneNumber);
-        Assert.assertEquals(200, response.statusCode());
+        Assert.assertEquals("Failed to update phone number for client: " + name, 200, response.statusCode());
+    }
+
+    @Then("I save the current phone number")
+    public void iSaveTheCurrentPhoneNumber() {
+        logger.info("Saving the current phone number: " + originalPhoneNumber);
     }
 
     @Then("the new phone number should be different from the original")
@@ -79,4 +84,6 @@ public class ClientSteps {
         Assert.assertTrue(clientRequest.validateSchema(response, path));
         logger.info("Successfully validated schema from Client object");
     }
+
+
 }
