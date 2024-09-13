@@ -44,6 +44,17 @@ public class ClientRequest extends BaseRequest {
     }
 
     /**
+     * Delete client by id
+     * @param clientId string
+     * @return rest-assured response
+     */
+    public Response deleteClient(String clientId) {
+        String endpoint = String.format(Constants.BASE_URL + Constants.URL_WITH_PARAM, Constants.CLIENTS_PATH, clientId);
+        return requestDelete(endpoint, createBaseHeaders());
+    }
+
+
+    /**
      * Get client entity from the response
      * @param response rest-assured response
      * @return Client entity
@@ -64,9 +75,9 @@ public class ClientRequest extends BaseRequest {
     /**
      * Create default clients
      */
-    public void createDefaultClients() {
+    public void createDefaultClients(int numberOfClient, String requiredName) {
         JsonFileReader jsonFileReader = new JsonFileReader();
-        List<Client> defaultClients = jsonFileReader.getClientsByJson(Constants.DEFAULT_CLIENTS_FILE_PATH);
+        List<Client> defaultClients = jsonFileReader.getRandomClientsWithRequiredName(Constants.DEFAULT_CLIENTS_FILE_PATH, numberOfClient, requiredName);
 
         for (Client client : defaultClients) {
             String endpoint = String.format(Constants.BASE_URL + Constants.URL, Constants.CLIENTS_PATH);

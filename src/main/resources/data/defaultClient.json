@@ -1,9 +1,0 @@
-{
-  "name": "John",
-  "lastName": "Doe",
-  "gender": "Male",
-  "country": "USA",
-  "city": "Los Angeles",
-  "id": "2",
-  "phoneNumber": "987-654-3210"
-}

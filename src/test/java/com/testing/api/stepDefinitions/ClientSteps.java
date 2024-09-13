@@ -21,15 +21,15 @@ public class ClientSteps {
     private Client client;
     private String originalPhoneNumber;
 
-    @Given("there are at least 10 registered clients")
-    public void thereAreRegisteredClientsInTheSystem() {
+    @Given("there are at least {int} registered clients and at least one of them is named {string}")
+    public void thereAreRegisteredClientsInTheSystem(int numberOfClients, String name) {
         response = clientRequest.getClients();
         logger.info(response.jsonPath().prettify());
         Assert.assertEquals(200, response.statusCode());
 
         List<Client> clientList = clientRequest.getClientsEntity(response);
         if (clientList.size() < 10) {
-            clientRequest.createDefaultClients();
+            clientRequest.createDefaultClients(numberOfClients-clientList.size(), name);
         }
     }
 
@@ -45,7 +45,7 @@ public class ClientSteps {
         Assert.assertTrue("Client named " + name + " not found", lauraClient.isPresent());
 
         client = lauraClient.get();
-        originalPhoneNumber = client.getPhoneNumber();
+        originalPhoneNumber = client.getPhone();
         logger.info("Found client named " + name + " with phone number: " + originalPhoneNumber);
         if (originalPhoneNumber == null) {
             logger.warn("Original phone number is null for client " + name);
@@ -55,7 +55,7 @@ public class ClientSteps {
     @When("I update the phone number of {string} to {string}")
     public void updatePhoneNumber(String name, String newPhoneNumber) {
         logger.info("Attempting to update the phone number of " + name + " to: " + newPhoneNumber);
-        client.setPhoneNumber(newPhoneNumber);
+        client.setPhone(newPhoneNumber);
         response = clientRequest.updateClient(client, client.getId());
         logger.info("Updated phone number to: " + newPhoneNumber);
         Assert.assertEquals("Failed to update phone number for client: " + name, 200, response.statusCode());
@@ -69,8 +69,8 @@ public class ClientSteps {
     @Then("the new phone number should be different from the original")
     public void verifyPhoneNumberHasChanged() {
         Client updatedClient = clientRequest.getClientEntity(response);
-        Assert.assertNotEquals("The phone number did not change", originalPhoneNumber, updatedClient.getPhoneNumber());
-        logger.info("Phone number updated successfully: " + updatedClient.getPhoneNumber());
+        Assert.assertNotEquals("The phone number did not change", originalPhoneNumber, updatedClient.getPhone());
+        logger.info("Phone number updated successfully: " + updatedClient.getPhone());
     }
 
     @Then("the response should have a status code of {int}")
@@ -80,6 +80,7 @@ public class ClientSteps {
 
     @Then("validates the response with the client JSON schema")
     public void validatesResponseWithClientSchema() {
+        logger.info(response.jsonPath().prettify());
         String path = "schemas/clientSchema.json";
         Assert.assertTrue(clientRequest.validateSchema(response, path));
         logger.info("Successfully validated schema from Client object");

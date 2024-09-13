@@ -7,29 +7,29 @@
     "lastName": {
       "type": "string"
     },
-    "gender": {
-      "type": "string"
-    },
     "country": {
       "type": "string"
     },
     "city": {
       "type": "string"
     },
-    "id": {
+    "email": {
       "type": "string"
     },
-    "phoneNumber": {
+    "phone": {
+      "type": "string"
+    },
+    "id": {
       "type": "string"
     }
   },
   "required": [
     "name",
     "lastName",
-    "gender",
     "country",
     "city",
-    "id",
-    "phoneNumber"
+    "email",
+    "phone",
+    "id"
   ]
 }

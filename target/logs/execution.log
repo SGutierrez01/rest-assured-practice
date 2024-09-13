@@ -1,1117 +1,341 @@
-2024-09-12 09:22:51.935 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 09:22:51.951 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 09:22:51.951 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 09:22:54.565 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
-]
-2024-09-12 09:23:31.544 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 09:23:31.547 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 09:23:31.547 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 09:26:22.311 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 09:26:22.316 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 09:26:22.316 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 09:26:24.794 INFO [api.stepDefinitions.ClientSteps:27] - [
+2024-09-12 21:22:27.632 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 21:22:27.636 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 21:22:27.637 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 21:22:29.705 INFO [api.stepDefinitions.ClientSteps:27] - [
     {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Gregg_Volkman12@gmail.com",
-        "phone": "(922) 600-9149",
+        "name": "Ressie",
+        "lastName": "Leffler",
+        "country": "Mali",
+        "city": "Brennanchester",
+        "email": "Hadley_McGlynn72@yahoo.com",
+        "phone": "(342) 244-1461 x2575",
         "id": "1",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
+        "phoneNumber": null
     },
     {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Alvis_Rolfson@yahoo.com",
-        "phone": "(220) 733-8325 x899",
+        "name": "Ned",
+        "lastName": "Ankunding",
+        "country": "Ghana",
+        "city": "Waco",
+        "email": "Grover84@yahoo.com",
+        "phone": "1-245-322-0620",
         "id": "2",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
+        "phoneNumber": null
     },
     {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Jefferey56@yahoo.com",
-        "phone": "1-797-457-7737 x459",
+        "name": "Sigrid",
+        "lastName": "Padberg",
+        "country": "Ecuador",
+        "city": "Mikebury",
+        "email": "Parker65@gmail.com",
+        "phone": "650-467-6897 x6400",
         "id": "3",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
+        "phoneNumber": null
     },
     {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Deangelo_Herzog@gmail.com",
-        "phone": "1-675-373-5239 x952",
+        "name": "Juwan",
+        "lastName": "Murazik",
+        "country": "Panama",
+        "city": "Tampa",
+        "email": "Ross.Parisian15@hotmail.com",
+        "phone": "708-338-7023",
         "id": "4",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
+        "phoneNumber": null
     },
     {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Albin.Bayer52@hotmail.com",
-        "phone": "574.362.3712 x76142",
+        "name": "Nikolas",
+        "lastName": "Jenkins",
+        "country": "Saint Kitts and Nevis",
+        "city": "Eloiseborough",
+        "email": "Cordie.Gibson32@yahoo.com",
+        "phone": "(504) 517-4725",
         "id": "5",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
+        "phoneNumber": null
     },
     {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Ulices38@yahoo.com",
-        "phone": "776.306.5004 x72478",
+        "name": "Zula",
+        "lastName": "Bernier",
+        "country": "Brunei Darussalam",
+        "city": "Cummeratafort",
+        "email": "Abel_Rolfson@yahoo.com",
+        "phone": "(965) 941-7370 x421",
         "id": "6",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
+        "phoneNumber": null
     },
     {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Candelario.Will@hotmail.com",
-        "phone": "331-946-7457 x45670",
+        "name": "Austyn",
+        "lastName": "Lockman",
+        "country": "Niger",
+        "city": "New Katrine",
+        "email": "Jalyn_Von51@yahoo.com",
+        "phone": "906-912-4118 x0340",
         "id": "7",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
+        "phoneNumber": null
     },
     {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Graham.Botsford61@gmail.com",
-        "phone": "1-288-635-4315",
+        "name": "Laura",
+        "lastName": "Schuppe",
+        "country": "Greece",
+        "city": "Harmonyland",
+        "email": "Clotilde.Cummings@gmail.com",
+        "phone": "938-860-7364 x76436",
         "id": "8",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
+        "phoneNumber": null
     },
     {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Marianne.Batz@hotmail.com",
-        "phone": "968.605.4945",
+        "name": "Gayle",
+        "lastName": "Becker",
+        "country": "Serbia",
+        "city": "Mission",
+        "email": "Barney_Shields24@hotmail.com",
+        "phone": "(430) 974-0240",
         "id": "9",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
+        "phoneNumber": null
     },
     {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Augustus_Konopelski41@gmail.com",
-        "phone": "388.383.8612 x74795",
+        "name": "Hipolito",
+        "lastName": "Grant",
+        "country": "Cote d'Ivoire",
+        "city": "Gerardofield",
+        "email": "Evans.Schimmel74@hotmail.com",
+        "phone": "(308) 792-2561",
         "id": "10",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Mitchel.Haley@hotmail.com",
-        "phone": "530-569-6075 x246",
-        "id": "11",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Jarrett71@hotmail.com",
-        "phone": "415-214-7896 x301",
-        "id": "12",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Dorian3@hotmail.com",
-        "phone": "1-796-996-6400 x1327",
-        "id": "13",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Sammie.Cartwright@yahoo.com",
-        "phone": "265.418.7678 x338",
-        "id": "14",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Savion_Schimmel@yahoo.com",
-        "phone": "219.206.4896 x59826",
-        "id": "15",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Harley.Stanton6@hotmail.com",
-        "phone": "1-578-348-5731 x9483",
-        "id": "16",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Orland_Kemmer89@yahoo.com",
-        "phone": "554.412.7396",
-        "id": "17",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Bradford5@yahoo.com",
-        "phone": "758.693.1551",
-        "id": "18",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Demetrius.Boyer59@hotmail.com",
-        "phone": "956.443.6887 x340",
-        "id": "19",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Griffin_Metz7@gmail.com",
-        "phone": "(738) 921-6169",
-        "id": "20",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Johnson54@gmail.com",
-        "phone": "569-368-2203 x1625",
-        "id": "21",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Garrett.Collier72@hotmail.com",
-        "phone": "362-402-0631 x31397",
-        "id": "22",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Efrain.Metz78@yahoo.com",
-        "phone": "674-266-0413",
-        "id": "23",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Schuyler_Prohaska42@yahoo.com",
-        "phone": "1-678-621-8234 x544",
-        "id": "24",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Paolo_Vandervort75@gmail.com",
-        "phone": "(674) 529-3040 x342",
-        "id": "25",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Regan92@yahoo.com",
-        "phone": "394-578-2288",
-        "id": "26",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Neoma.Ferry@gmail.com",
-        "phone": "849-791-5455 x2773",
-        "id": "27",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Verner_Cruickshank@hotmail.com",
-        "phone": "631-227-8965",
-        "id": "28",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Laury3@yahoo.com",
-        "phone": "882.739.7808 x3258",
-        "id": "29",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Astrid_VonRueden44@yahoo.com",
-        "phone": "572.625.8095 x417",
-        "id": "30",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Dayna33@hotmail.com",
-        "phone": "884.682.7108 x02687",
-        "id": "31",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Raymond10@gmail.com",
-        "phone": "350.514.5311",
-        "id": "32",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Shirley_Cole46@yahoo.com",
-        "phone": "788-760-7730 x39006",
-        "id": "33",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Herbert.Nikolaus@hotmail.com",
-        "phone": "525-934-4163",
-        "id": "34",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Sonny22@gmail.com",
-        "phone": "1-998-952-7001",
-        "id": "35",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Mack_Ratke@hotmail.com",
-        "phone": "628.932.5800 x69961",
-        "id": "36",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Ellie.Hodkiewicz@hotmail.com",
-        "phone": "(715) 669-7753 x019",
-        "id": "37",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Laurine34@hotmail.com",
-        "phone": "(402) 579-1161 x6820",
-        "id": "38",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Myrl_Keeling48@yahoo.com",
-        "phone": "368.948.6733 x882",
-        "id": "39",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Meda50@yahoo.com",
-        "phone": "754.988.9492",
-        "id": "40",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Chase.Schaefer@yahoo.com",
-        "phone": "1-272-847-2670 x16735",
-        "id": "41",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Al.Herman44@yahoo.com",
-        "phone": "1-217-997-0757 x142",
-        "id": "42",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Mariela.Carroll45@hotmail.com",
-        "phone": "955.759.2506 x95274",
-        "id": "43",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Eldora.Wolf98@yahoo.com",
-        "phone": "921.843.5613",
-        "id": "44",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Emma.Bogisich38@gmail.com",
-        "phone": "602.890.4999 x793",
-        "id": "45",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Stephan.Schmitt60@yahoo.com",
-        "phone": "(565) 541-4304 x75217",
-        "id": "46",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Aditya_Zboncak4@yahoo.com",
-        "phone": "1-591-669-6960 x201",
-        "id": "47",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Nina_Kirlin71@yahoo.com",
-        "phone": "(621) 708-8202 x863",
-        "id": "48",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Arthur.Lehner@yahoo.com",
-        "phone": "1-253-956-2403 x70246",
-        "id": "49",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Vince86@yahoo.com",
-        "phone": "205-208-7537 x47203",
-        "id": "50",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Neha6@hotmail.com",
-        "phone": "400.446.5203",
-        "id": "51",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Lori_Stehr18@gmail.com",
-        "phone": "1-392-647-5646 x82757",
-        "id": "52",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Selina_Haley@yahoo.com",
-        "phone": "1-853-871-2243 x56987",
-        "id": "53",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Giovanny.Huels80@hotmail.com",
-        "phone": "1-488-823-1011 x855",
-        "id": "54",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Marjolaine78@gmail.com",
-        "phone": "(885) 893-8963",
-        "id": "55",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Modesta_Runolfsson@yahoo.com",
-        "phone": "960.949.4696 x96993",
-        "id": "56",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Obie_Franecki15@yahoo.com",
-        "phone": "788.327.7183",
-        "id": "57",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Janis31@hotmail.com",
-        "phone": "684.513.9639 x8332",
-        "id": "58",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Antone.Goyette7@gmail.com",
-        "phone": "1-599-285-3516 x607",
-        "id": "59",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Bridget65@yahoo.com",
-        "phone": "(264) 791-5397 x51448",
-        "id": "60",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Marielle_Predovic13@gmail.com",
-        "phone": "332-997-4254",
-        "id": "61",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Daisha_Hegmann@hotmail.com",
-        "phone": "(852) 279-6202 x45291",
-        "id": "62",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Uriel_Stroman@yahoo.com",
-        "phone": "852.811.7404 x0171",
-        "id": "63",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Kameron49@yahoo.com",
-        "phone": "(696) 923-8021 x47822",
-        "id": "64",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Dane.Vandervort45@yahoo.com",
-        "phone": "(434) 468-1824 x6787",
-        "id": "65",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Mckenzie.Tillman@yahoo.com",
-        "phone": "486-816-6311 x5491",
-        "id": "66",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Paula65@hotmail.com",
-        "phone": "819-725-3235 x0001",
-        "id": "67",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Magdalena72@hotmail.com",
-        "phone": "1-364-326-5739 x788",
-        "id": "68",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Halle88@yahoo.com",
-        "phone": "871-271-8935 x6348",
-        "id": "69",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Jonas.Cronin@gmail.com",
-        "phone": "1-250-835-0151",
-        "id": "70",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Natalie_Marks99@hotmail.com",
-        "phone": "685.554.5656 x24962",
-        "id": "71",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Burnice92@hotmail.com",
-        "phone": "1-722-764-0121 x761",
-        "id": "72",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Harmony_Mante39@gmail.com",
-        "phone": "(553) 490-6032",
-        "id": "73",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Elroy.Murray@gmail.com",
-        "phone": "752.926.8646",
-        "id": "74",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Zoe.Dare@yahoo.com",
-        "phone": "504-915-5076 x08074",
-        "id": "75",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Rhea82@gmail.com",
-        "phone": "1-504-789-5002 x27843",
-        "id": "76",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Una_Kshlerin@gmail.com",
-        "phone": "(690) 512-8922",
-        "id": "77",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Dashawn_Howell@hotmail.com",
-        "phone": "265.615.4125 x4016",
-        "id": "78",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Arthur_Abshire@hotmail.com",
-        "phone": "259.266.5262 x2583",
-        "id": "79",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Haylie81@yahoo.com",
-        "phone": "575-689-6515 x11582",
-        "id": "80",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Catalina_Marvin3@hotmail.com",
-        "phone": "761-850-4883 x580",
-        "id": "81",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Dewayne98@yahoo.com",
-        "phone": "(506) 997-2803",
-        "id": "82",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Dorothy_Waters@hotmail.com",
-        "phone": "(228) 734-1468 x8096",
-        "id": "83",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Devyn12@hotmail.com",
-        "phone": "1-773-714-8008",
-        "id": "84",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Milford_Koepp60@gmail.com",
-        "phone": "558.743.4071 x7721",
-        "id": "85",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Brody37@hotmail.com",
-        "phone": "902-295-2380",
-        "id": "86",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Mara82@hotmail.com",
-        "phone": "(577) 293-0527 x864",
-        "id": "87",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Bart_Lynch33@yahoo.com",
-        "phone": "203.628.8706 x49693",
-        "id": "88",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Fritz43@hotmail.com",
-        "phone": "590-304-1635",
-        "id": "89",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Bernice_Smith@gmail.com",
-        "phone": "(625) 746-2860 x668",
-        "id": "90",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
-    },
-    {
-        "name": "Maria",
-        "lastName": "Garcia",
-        "country": "Spain",
-        "city": "Madrid",
-        "email": "Ashlynn69@gmail.com",
-        "phone": "554.983.0162 x426",
-        "id": "91",
-        "gender": "Female",
-        "phoneNumber": "789-456-1230"
-    },
-    {
-        "name": "John",
-        "lastName": "Doe",
-        "country": "USA",
-        "city": "Los Angeles",
-        "email": "Jay66@hotmail.com",
-        "phone": "651-444-5571 x955",
-        "id": "92",
-        "gender": "Male",
-        "phoneNumber": "987-654-3210"
-    },
-    {
-        "name": "Jane",
-        "lastName": "Doe",
-        "country": "Canada",
-        "city": "Toronto",
-        "email": "Brayan44@yahoo.com",
-        "phone": "1-301-273-8101",
-        "id": "93",
-        "gender": "Female",
-        "phoneNumber": "456-789-1234"
-    },
-    {
-        "name": "Carlos",
-        "lastName": "Gonzalez",
-        "country": "Mexico",
-        "city": "Mexico City",
-        "email": "Maida.Connelly34@hotmail.com",
-        "phone": "(721) 304-8476 x099",
-        "id": "94",
-        "gender": "Male",
-        "phoneNumber": "321-654-9870"
-    },
-    {
-        "name": "Laura",
-        "lastName": "Smith",
-        "country": "USA",
-        "city": "New York",
-        "email": "Jason.Kertzmann@gmail.com",
-        "phone": "(623) 942-7345",
-        "id": "95",
-        "gender": "Female",
-        "phoneNumber": "123-456-7890"
-    },
-    {
-        "name": "Ahmed",
-        "lastName": "Khan",
-        "country": "Pakistan",
-        "city": "Karachi",
-        "email": "Maria12@hotmail.com",
-        "phone": "291.295.4175 x45292",
-        "id": "96",
-        "gender": "Male",
-        "phoneNumber": "654-321-9870"
-    },
-    {
-        "name": "Lisa",
-        "lastName": "Wong",
-        "country": "China",
-        "city": "Beijing",
-        "email": "Emerson_Krajcik10@yahoo.com",
-        "phone": "1-264-212-1032 x4705",
-        "id": "97",
-        "gender": "Female",
-        "phoneNumber": "987-123-4567"
-    },
-    {
-        "name": "David",
-        "lastName": "Brown",
-        "country": "UK",
-        "city": "London",
-        "email": "Wilbert.Beahan@gmail.com",
-        "phone": "1-840-288-9956 x33249",
-        "id": "98",
-        "gender": "Male",
-        "phoneNumber": "123-789-4560"
-    },
-    {
-        "name": "Sofia",
-        "lastName": "Martinez",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "email": "Cathrine_Kohler@gmail.com",
-        "phone": "222-910-6855",
-        "id": "99",
-        "gender": "Female",
-        "phoneNumber": "789-123-6540"
-    },
-    {
-        "name": "Mohammed",
-        "lastName": "Ali",
-        "country": "Egypt",
-        "city": "Cairo",
-        "email": "Macy_Green44@gmail.com",
-        "phone": "572.966.4773",
-        "id": "100",
-        "gender": "Male",
-        "phoneNumber": "654-987-3210"
+        "phoneNumber": null
     }
 ]
-2024-09-12 09:26:25.270 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 09:26:25.270 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 09:26:25.270 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 21:22:29.998 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 21:22:29.999 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 21:22:29.999 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 21:27:05.773 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 21:27:05.775 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 21:27:05.776 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 21:27:07.586 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 21:27:11.565 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: (360) 512-0378 x76638
+2024-09-12 21:27:11.567 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: (360) 512-0378 x76638
+2024-09-12 21:27:11.570 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 21:27:11.998 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 21:27:12.011 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 21:27:12.322 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 21:27:12.323 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 21:27:12.323 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 22:18:50.835 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 22:18:50.839 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 22:18:50.840 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 22:18:53.074 INFO [api.stepDefinitions.ClientSteps:27] - [
+    {
+        "name": "Pasquale",
+        "lastName": "Gulgowski",
+        "country": "Bolivia",
+        "city": "Cronaview",
+        "email": "Kale_Heidenreich68@hotmail.com",
+        "phone": "1-975-525-1325",
+        "id": "1"
+    },
+    {
+        "name": "Nikolas",
+        "lastName": "Jenkins",
+        "country": "Saint Kitts and Nevis",
+        "city": "Eloiseborough",
+        "email": "Cordie.Gibson32@yahoo.com",
+        "phone": "1-716-634-3876 x3472",
+        "id": "2"
+    },
+    {
+        "name": "Providenci",
+        "lastName": "Mueller",
+        "country": "Montenegro",
+        "city": "Waterbury",
+        "email": "Quincy.Hackett88@yahoo.com",
+        "phone": "1-404-473-0914 x91162",
+        "id": "3"
+    },
+    {
+        "name": "Dorthy",
+        "lastName": "Miller",
+        "country": "Romania",
+        "city": "West Rose",
+        "email": "Marshall.Reilly43@gmail.com",
+        "phone": "1-368-488-6363 x238",
+        "id": "4"
+    },
+    {
+        "name": "Stephany",
+        "lastName": "Wyman",
+        "country": "Greece",
+        "city": "Middletown",
+        "email": "Arely.Kshlerin@gmail.com",
+        "phone": "1-944-922-4709",
+        "id": "5"
+    },
+    {
+        "name": "Sigrid",
+        "lastName": "Padberg",
+        "country": "Ecuador",
+        "city": "Mikebury",
+        "email": "Parker65@gmail.com",
+        "phone": "(870) 310-9659 x8431",
+        "id": "6"
+    },
+    {
+        "name": "Xavier",
+        "lastName": "Hermiston",
+        "country": "Guyana",
+        "city": "South Hill",
+        "email": "Catharine_Stracke@yahoo.com",
+        "phone": "646.891.7477 x67360",
+        "id": "7"
+    },
+    {
+        "name": "Zula",
+        "lastName": "Bernier",
+        "country": "Brunei Darussalam",
+        "city": "Cummeratafort",
+        "email": "Abel_Rolfson@yahoo.com",
+        "phone": "(331) 818-8936 x530",
+        "id": "8"
+    },
+    {
+        "name": "Alexandro",
+        "lastName": "Hagenes",
+        "country": "Zambia",
+        "city": "Romabury",
+        "email": "Viviane57@gmail.com",
+        "phone": "(704) 375-4740 x9220",
+        "id": "9"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Mraz",
+        "country": "Cambodia",
+        "city": "Adancester",
+        "email": "Nella95@gmail.com",
+        "phone": "555-1234",
+        "id": "10"
+    }
+]
+2024-09-12 22:18:53.742 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 555-1234
+2024-09-12 22:18:53.743 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 555-1234
+2024-09-12 22:18:53.746 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 22:18:54.142 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 22:18:54.166 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 22:18:54.166 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 22:18:54.167 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 22:24:20.488 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 22:24:20.490 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 22:24:20.490 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 22:24:22.384 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 22:24:26.356 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-404-473-0914 x91162
+2024-09-12 22:24:26.357 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-404-473-0914 x91162
+2024-09-12 22:24:26.360 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 22:24:26.681 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 22:24:26.694 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 22:24:26.979 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 22:24:26.979 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 22:24:26.980 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 22:44:16.414 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 22:44:16.416 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 22:44:16.417 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 22:44:18.385 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 22:44:22.588 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-368-488-6363 x238
+2024-09-12 22:44:22.589 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-368-488-6363 x238
+2024-09-12 22:44:22.592 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 22:44:22.907 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 22:44:22.919 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 22:44:23.196 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 22:44:23.197 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 22:44:23.197 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-12 23:12:40.471 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
+2024-09-12 23:12:40.474 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 23:12:40.474 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 23:12:42.603 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 23:12:46.574 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: (704) 375-4740 x9220
+2024-09-12 23:12:46.576 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: (704) 375-4740 x9220
+2024-09-12 23:12:46.579 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 23:12:46.884 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 23:12:46.899 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 23:12:46.901 INFO [api.stepDefinitions.ClientSteps:83] - io.restassured.internal.RestAssuredResponseImpl@395281c2
+2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
+2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
+2024-09-12 23:12:50.662 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
+2024-09-12 23:14:45.171 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
+2024-09-12 23:14:45.174 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 23:14:45.174 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 23:14:47.347 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 23:14:51.364 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 646.891.7477 x67360
+2024-09-12 23:14:51.366 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 646.891.7477 x67360
+2024-09-12 23:14:51.370 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 23:14:51.669 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 23:14:51.686 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 23:14:51.689 INFO [api.stepDefinitions.ClientSteps:83] - {
+    "name": "Laura",
+    "lastName": "Hermiston",
+    "country": "Guyana",
+    "city": "South Hill",
+    "email": "Catharine_Stracke@yahoo.com",
+    "phone": "555-1234",
+    "id": "2"
+}
+2024-09-12 23:14:51.948 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
+2024-09-12 23:14:51.949 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 23:14:51.949 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
+2024-09-12 23:14:55.388 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
+2024-09-12 23:15:54.622 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
+2024-09-12 23:15:54.626 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 23:15:54.626 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 23:15:56.833 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 23:16:00.852 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 521-970-1266 x697
+2024-09-12 23:16:00.853 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 521-970-1266 x697
+2024-09-12 23:16:00.857 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 23:16:01.161 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 23:16:01.171 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 23:16:01.174 INFO [api.stepDefinitions.ClientSteps:83] - {
+    "name": "Laura",
+    "lastName": "Rolfson",
+    "country": "Virgin Islands, U.S.",
+    "city": "Samsonview",
+    "email": "Wallace_Gleason94@hotmail.com",
+    "phone": "555-1234",
+    "id": "1"
+}
+2024-09-12 23:16:01.418 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
+2024-09-12 23:16:01.418 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 23:16:01.419 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
+2024-09-12 23:16:04.885 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
+2024-09-12 23:18:53.261 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
+2024-09-12 23:18:53.264 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-12 23:18:53.264 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 23:18:55.314 INFO [api.stepDefinitions.ClientSteps:27] - [
+    
+]
+2024-09-12 23:18:59.275 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-975-525-1325
+2024-09-12 23:18:59.276 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-975-525-1325
+2024-09-12 23:18:59.278 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-12 23:18:59.606 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
+2024-09-12 23:18:59.620 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
+2024-09-12 23:18:59.623 INFO [api.stepDefinitions.ClientSteps:83] - {
+    "name": "Laura",
+    "lastName": "Gulgowski",
+    "country": "Bolivia",
+    "city": "Cronaview",
+    "email": "Kale_Heidenreich68@hotmail.com",
+    "phone": "555-1234",
+    "id": "3"
+}
+2024-09-12 23:18:59.864 INFO [api.stepDefinitions.ClientSteps:86] - Successfully validated schema from Client object
+2024-09-12 23:18:59.866 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
+2024-09-12 23:18:59.867 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-12 23:18:59.867 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
+2024-09-12 23:19:03.309 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
