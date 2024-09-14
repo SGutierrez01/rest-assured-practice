@@ -7,30 +7,12 @@ import com.testing.api.models.Resource;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
 public class JsonFileReader {
-
-    /**
-     * This method reads a JSON file and deserializes the body into a list of Client objects
-     *
-     * @param jsonFileName json file location path
-     * @return List<Client> : list of clients
-     */
-    public List<Client> getAllClientsByJson(String jsonFileName) {
-        List<Client> clients = null;
-        try (Reader reader = new FileReader(jsonFileName)) {
-            Gson gson = new Gson();
-            clients = gson.fromJson(reader, new TypeToken<List<Client>>() {}.getType());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return clients;
-    }
 
     /**
      * Reads a JSON file and deserializes it into a list of Client objects, randomly selecting a specified number of clients,

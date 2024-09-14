@@ -91,8 +91,8 @@ public class BaseRequest {
     /**
      * Validate the response schema
      * @param response rest-assured response
-     * @param schemaPath string
-     * @return boolean
+     * @param schemaPath string with the schema path
+     * @return boolean true if the schema is valid
      */
     public boolean  validateSchema(Response response, String schemaPath) {
         try {

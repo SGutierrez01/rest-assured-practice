@@ -16,6 +16,11 @@ import java.util.List;
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
 
+    /**
+     * This method is executed before each scenario to set the base URL
+     * and print the scenario name
+     * @param scenario
+     */
     @Before
     public void testStart(Scenario scenario) {
         logger.info("*****************************************************************************************");
@@ -24,6 +29,10 @@ public class Hooks {
         RestAssured.baseURI = Constants.BASE_URL;
     }
 
+    /**
+     * This method is executed after each scenario to print the scenario name
+     * @param scenario
+     */
     @After
     public void cleanUp(Scenario scenario) {
         logger.info("*****************************************************************************************");

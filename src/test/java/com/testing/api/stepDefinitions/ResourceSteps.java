@@ -22,7 +22,13 @@ public class ResourceSteps {
     private List<Resource> activeResources;
     private Resource latestResource;
 
-
+    /**
+     * This method creates resources if there are less than the required number of resources
+     * @param numberOfResources int with the number of resources to create
+     *                          if there are less than the required number of resources
+     * @param state String with the state of the resources to create
+     *              (active or inactive)
+     */
     @Given("there are at least {int} resources with status {string}")
     public void thereAreAtLeastResourcesWithStatusActive(int numberOfResources, String state) {
         response = resourceRequest.getResources();
@@ -39,6 +45,9 @@ public class ResourceSteps {
         }
     }
 
+    /**
+     * This method retrieves all active resources
+     */
     @When("I retrieve all active resources")
     public void iRetrieveAllActiveResources() {
         response = resourceRequest.getResources();
@@ -59,15 +68,20 @@ public class ResourceSteps {
         logger.info("Total active resources found: " + activeResources.size());
     }
 
+    /**
+     * This method validates that the list of active resources is retrieved successfully
+     */
     @Then("the list of active resources should be retrieved successfully")
     public void theListOfActiveResourcesShouldBeRetrievedSuccessfully() {
         Assert.assertEquals(200, response.statusCode());
 
-        // Validate schema against resource list
         String path = "schemas/resourceListSchema.json";
         Assert.assertTrue(resourceRequest.validateSchema(response, path));
     }
 
+    /**
+     * This method updates all active resources to inactive
+     */
     @And("I update all these resources to inactive")
     public void iUpdateAllTheseResourcesToInactive() {
         for (Resource resource : activeResources) {
@@ -78,11 +92,17 @@ public class ResourceSteps {
         }
     }
 
+    /**
+     * This method validates the response of the put request
+     */
     @And("the response of put request should have a status code of {int}")
     public void theResponseOfPutRequestShouldHaveAStatusCodeOf(int statusCode) {
         Assert.assertEquals(statusCode, response.statusCode());
     }
 
+    /**
+     * This method deletes all resources registered in this scenario
+     */
     @And("delete all resources registered in this scenario")
     public void deleteAllResourcesRegisteredInThisScenario() {
         logger.info("Cleaning up: Deleting all created resources...");
@@ -103,6 +123,11 @@ public class ResourceSteps {
 
     //Test Case 4 implementation
 
+    /**
+     * This method creates resources if there are less than the required number of resources
+     * @param numberOfResources int with the number of resources to create
+     *                          if there are less than the required number of resources
+     */
     @Given("there are at least {int} resources in the system")
     public void thereAreAtLeastResourcesInTheSystem(int numberOfResources) {
         response = resourceRequest.getResources();
@@ -120,6 +145,9 @@ public class ResourceSteps {
         logger.info("Resources in the system: " + resourceRequest.getResourcesEntity(response).size());
     }
 
+    /**
+     * This method retrieves the latest created resource
+     */
     @When("I retrieve the latest created resource")
     public void iRetrieveTheLatestCreatedResource() {
         response = resourceRequest.getResources();
@@ -132,6 +160,9 @@ public class ResourceSteps {
         logger.info("Retrieved latest resource: " + latestResource);
     }
 
+    /**
+     * This method validates that the latest resource is retrieved successfully
+     */
     @And("I update all the parameters of this resource")
     public void iUpdateAllTheParametersOfThisResource() {
         latestResource.setName("Updated Name");
@@ -147,6 +178,9 @@ public class ResourceSteps {
         Assert.assertEquals(200, response.statusCode());
     }
 
+    /**
+     * This method validates the schema of the resource response
+     */
     @Then("the response structure matches the resource schema")
     public void theResponseStructureMatchesTheResourceSchema() {
         String schemaPath = "schemas/resourceSchema.json";
@@ -154,6 +188,9 @@ public class ResourceSteps {
         logger.info("Resource response matches the JSON schema");
     }
 
+    /**
+     * This method validate the response data against the updated values
+     */
     @Then("the response body data should reflect the updated values")
     public void theResponseBodyDataShouldReflectTheUpdatedValues() {
         Resource updatedResource = resourceRequest.getResourceEntity(response);

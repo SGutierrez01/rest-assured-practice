@@ -96,3 +96,242 @@
 2024-09-13 22:24:23.256 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
 2024-09-13 22:24:23.257 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the last created resource
 2024-09-13 22:24:23.257 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 22:54:03.713 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:54:03.715 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 22:54:03.716 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:54:05.218 INFO [api.stepDefinitions.ClientSteps:38] - [
+    
+]
+2024-09-13 22:54:09.190 INFO [api.stepDefinitions.ClientSteps:77] - Found client named Laura with phone number: 865.631.0783 x65786
+2024-09-13 22:54:09.192 INFO [api.stepDefinitions.ClientSteps:105] - Saving the current phone number: 865.631.0783 x65786
+2024-09-13 22:54:09.202 INFO [api.stepDefinitions.ClientSteps:90] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 22:54:09.501 INFO [api.stepDefinitions.ClientSteps:96] - Updated phone number to: 555-1234
+2024-09-13 22:54:09.515 INFO [api.stepDefinitions.ClientSteps:115] - Phone number updated successfully: 555-1234
+2024-09-13 22:54:09.519 INFO [api.stepDefinitions.ClientSteps:132] - {
+    "name": "Laura",
+    "lastName": "Schultz",
+    "country": "Burundi",
+    "city": "Port Lavinastad",
+    "email": "Zora_Bednar32@yahoo.com",
+    "phone": "555-1234",
+    "id": "2"
+}
+2024-09-13 22:54:09.732 INFO [api.stepDefinitions.ClientSteps:135] - Successfully validated schema from Client object
+2024-09-13 22:54:09.733 INFO [api.stepDefinitions.ClientSteps:143] - Cleaning up: Deleting all created clients...
+2024-09-13 22:54:13.413 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:54:13.414 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 22:54:13.414 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:54:13.425 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:54:13.425 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update and Delete a new client with name "John"
+2024-09-13 22:54:13.425 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:54:14.062 INFO [api.stepDefinitions.ClientSteps:180] - Created client: Client(name=John, lastName=Bernier, country=Brunei Darussalam, city=Cummeratafort, email=Abel_Rolfson@yahoo.com, phone=(331) 818-8936 x530, id=1)
+2024-09-13 22:54:14.391 INFO [api.stepDefinitions.ClientSteps:191] - Retrieved client: {
+    "name": "John",
+    "lastName": "Bernier",
+    "country": "Brunei Darussalam",
+    "city": "Cummeratafort",
+    "email": "Abel_Rolfson@yahoo.com",
+    "phone": "(331) 818-8936 x530",
+    "id": "1"
+}
+2024-09-13 22:54:14.707 INFO [api.stepDefinitions.ClientSteps:203] - Updated client response: {
+    "name": "John",
+    "lastName": "Bernier",
+    "country": "Brunei Darussalam",
+    "city": "San Francisco",
+    "email": "Abel_Rolfson@yahoo.com",
+    "phone": "(331) 818-8936 x530",
+    "id": "1"
+}
+2024-09-13 22:54:14.716 INFO [api.stepDefinitions.ClientSteps:214] - Client response matches the JSON schema
+2024-09-13 22:54:15.061 INFO [api.stepDefinitions.ClientSteps:223] - Deleted client response: 200
+2024-09-13 22:54:15.389 INFO [api.stepDefinitions.ClientSteps:234] - Verified client no longer exists: 500
+2024-09-13 22:54:15.391 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:54:15.391 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update and Delete a new client with name "John"
+2024-09-13 22:54:15.391 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:54:15.409 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:54:15.409 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 22:54:15.409 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:54:15.739 INFO [api.stepDefinitions.ResourceSteps:35] - [
+    
+]
+2024-09-13 22:54:17.817 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 22:54:17.817 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 22:54:17.818 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 22:54:17.818 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 22:54:17.818 INFO [api.stepDefinitions.ResourceSteps:68] - Total active resources found: 4
+2024-09-13 22:54:17.829 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:54:17.830 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 22:54:17.830 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:54:17.838 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:54:17.838 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the last created resource
+2024-09-13 22:54:17.838 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:54:18.180 INFO [api.stepDefinitions.ResourceSteps:135] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": true,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": true,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": true,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    }
+]
+2024-09-13 22:54:18.192 INFO [api.stepDefinitions.ResourceSteps:142] - Creating 10 additional resources to meet the required 15
+2024-09-13 22:54:21.504 INFO [api.stepDefinitions.ResourceSteps:146] - Resources in the system: 5
+2024-09-13 22:54:21.822 INFO [api.stepDefinitions.ResourceSteps:161] - Retrieved latest resource: Resource(id=9, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 22:54:22.125 INFO [api.stepDefinitions.ResourceSteps:178] - Updated resource response: {
+    "name": "Updated Name",
+    "trademark": "Updated Trademark",
+    "stock": 100,
+    "price": 99.99,
+    "description": "Updated Description",
+    "tags": "Updated,Tags",
+    "active": true,
+    "id": "9"
+}
+2024-09-13 22:54:22.133 INFO [api.stepDefinitions.ResourceSteps:189] - Resource response matches the JSON schema
+2024-09-13 22:54:22.134 INFO [api.stepDefinitions.ResourceSteps:207] - Verified all resource updates are correctly reflected in the response
+2024-09-13 22:54:22.134 INFO [api.stepDefinitions.ResourceSteps:109] - Cleaning up: Deleting all created resources...
+2024-09-13 22:54:27.358 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:54:27.359 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the last created resource
+2024-09-13 22:54:27.359 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:56:03.058 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:56:03.060 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 22:56:03.060 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:56:04.566 INFO [api.stepDefinitions.ClientSteps:38] - [
+    
+]
+2024-09-13 22:56:08.889 INFO [api.stepDefinitions.ClientSteps:77] - Found client named Laura with phone number: 1-770-476-7395
+2024-09-13 22:56:08.890 INFO [api.stepDefinitions.ClientSteps:105] - Saving the current phone number: 1-770-476-7395
+2024-09-13 22:56:08.892 INFO [api.stepDefinitions.ClientSteps:90] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 22:56:09.220 INFO [api.stepDefinitions.ClientSteps:96] - Updated phone number to: 555-1234
+2024-09-13 22:56:09.232 INFO [api.stepDefinitions.ClientSteps:115] - Phone number updated successfully: 555-1234
+2024-09-13 22:56:09.235 INFO [api.stepDefinitions.ClientSteps:132] - {
+    "name": "Laura",
+    "lastName": "Grant",
+    "country": "Cote d'Ivoire",
+    "city": "Gerardofield",
+    "email": "Evans.Schimmel74@hotmail.com",
+    "phone": "555-1234",
+    "id": "1"
+}
+2024-09-13 22:56:09.413 INFO [api.stepDefinitions.ClientSteps:135] - Successfully validated schema from Client object
+2024-09-13 22:56:09.414 INFO [api.stepDefinitions.ClientSteps:143] - Cleaning up: Deleting all created clients...
+2024-09-13 22:56:13.032 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:56:13.033 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 22:56:13.033 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:56:13.042 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:56:13.043 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update and Delete a new client with name "John"
+2024-09-13 22:56:13.043 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:56:13.743 INFO [api.stepDefinitions.ClientSteps:180] - Created client: Client(name=John, lastName=Ankunding, country=Ghana, city=Waco, email=Grover84@yahoo.com, phone=(730) 444-7890 x742, id=1)
+2024-09-13 22:56:14.067 INFO [api.stepDefinitions.ClientSteps:191] - Retrieved client: {
+    "name": "John",
+    "lastName": "Ankunding",
+    "country": "Ghana",
+    "city": "Waco",
+    "email": "Grover84@yahoo.com",
+    "phone": "(730) 444-7890 x742",
+    "id": "1"
+}
+2024-09-13 22:56:14.409 INFO [api.stepDefinitions.ClientSteps:203] - Updated client response: {
+    "name": "John",
+    "lastName": "Ankunding",
+    "country": "Ghana",
+    "city": "San Francisco",
+    "email": "Grover84@yahoo.com",
+    "phone": "(730) 444-7890 x742",
+    "id": "1"
+}
+2024-09-13 22:56:14.420 INFO [api.stepDefinitions.ClientSteps:214] - Client response matches the JSON schema
+2024-09-13 22:56:14.753 INFO [api.stepDefinitions.ClientSteps:223] - Deleted client response: 200
+2024-09-13 22:56:15.077 INFO [api.stepDefinitions.ClientSteps:234] - Verified client no longer exists: 500
+2024-09-13 22:56:15.078 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:56:15.079 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update and Delete a new client with name "John"
+2024-09-13 22:56:15.079 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:56:15.090 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:56:15.090 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 22:56:15.091 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:56:15.423 INFO [api.stepDefinitions.ResourceSteps:35] - [
+    
+]
+2024-09-13 22:56:17.359 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 22:56:17.360 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 22:56:17.360 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 22:56:17.360 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 22:56:17.360 INFO [api.stepDefinitions.ResourceSteps:68] - Total active resources found: 4
+2024-09-13 22:56:17.718 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 1
+2024-09-13 22:56:18.037 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 2
+2024-09-13 22:56:18.546 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 3
+2024-09-13 22:56:18.864 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 4
+2024-09-13 22:56:18.871 INFO [api.stepDefinitions.ResourceSteps:188] - Resource response matches the JSON schema
+2024-09-13 22:56:18.871 INFO [api.stepDefinitions.ResourceSteps:108] - Cleaning up: Deleting all created resources...
+2024-09-13 22:56:20.866 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:56:20.867 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 22:56:20.867 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 22:56:20.875 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 22:56:20.875 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the last created resource
+2024-09-13 22:56:20.875 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 22:56:21.225 INFO [api.stepDefinitions.ResourceSteps:134] - [
+    
+]
+2024-09-13 22:56:21.229 INFO [api.stepDefinitions.ResourceSteps:141] - Creating 15 additional resources to meet the required 15
+2024-09-13 22:56:26.026 INFO [api.stepDefinitions.ResourceSteps:145] - Resources in the system: 0
+2024-09-13 22:56:26.377 INFO [api.stepDefinitions.ResourceSteps:160] - Retrieved latest resource: Resource(id=9, name=Chicken, trademark=Schulist - Weimann, stock=32547, price=14478.81, description=The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients, tags=avatar, active=false)
+2024-09-13 22:56:26.703 INFO [api.stepDefinitions.ResourceSteps:177] - Updated resource response: {
+    "name": "Updated Name",
+    "trademark": "Updated Trademark",
+    "stock": 100,
+    "price": 99.99,
+    "description": "Updated Description",
+    "tags": "Updated,Tags",
+    "active": true,
+    "id": "9"
+}
+2024-09-13 22:56:26.712 INFO [api.stepDefinitions.ResourceSteps:188] - Resource response matches the JSON schema
+2024-09-13 22:56:26.714 INFO [api.stepDefinitions.ResourceSteps:206] - Verified all resource updates are correctly reflected in the response
+2024-09-13 22:56:26.715 INFO [api.stepDefinitions.ResourceSteps:108] - Cleaning up: Deleting all created resources...
+2024-09-13 22:56:32.053 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 22:56:32.053 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the last created resource
+2024-09-13 22:56:32.054 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************

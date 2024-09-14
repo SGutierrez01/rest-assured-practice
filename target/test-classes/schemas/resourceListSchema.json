@@ -9,7 +9,7 @@
         "type": "string"
       },
       "stock": {
-        "type": "number"
+        "type": "integer"
       },
       "price": {
         "type": "number"

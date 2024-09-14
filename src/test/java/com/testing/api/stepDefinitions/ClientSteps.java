@@ -47,9 +47,7 @@ public class ClientSteps {
                     + " clients in the system" + "and need to verify if "
                     + name + " is in the system");
             for (int i = 0; i < clientList.size() && !found; i++) {
-                if (clientList.get(i).getName().equalsIgnoreCase(name)) {
-                    found = true;
-                }
+                found = clientList.get(i).getName().equalsIgnoreCase(name);
             }
             if (!found) {
                 clientRequest.createDefaultClients(1, name);
@@ -100,13 +98,16 @@ public class ClientSteps {
     }
 
     /**
-     * This method saves the current phone number
+     * This method verify the current phone number was saved
      */
     @Then("I save the current phone number")
     public void iSaveTheCurrentPhoneNumber() {
         logger.info("Saving the current phone number: " + originalPhoneNumber);
     }
 
+    /**
+     * This method verifies the phone number has changed
+     */
     @Then("the new phone number should be different from the original")
     public void verifyPhoneNumberHasChanged() {
         Client updatedClient = clientRequest.getClientEntity(response);
@@ -114,11 +115,18 @@ public class ClientSteps {
         logger.info("Phone number updated successfully: " + updatedClient.getPhone());
     }
 
+    /**
+     * This method validates the response status code
+     * @param statusCode int with the expected status code
+     */
     @Then("the response should have a status code of {int}")
     public void theResponseShouldHaveAStatusCodeOf(int statusCode) {
         Assert.assertEquals(statusCode, response.statusCode());
     }
 
+    /**
+     * This method validates the response structure against the client JSON schema
+     */
     @Then("validates the response with the client JSON schema")
     public void validatesResponseWithClientSchema() {
         logger.info(response.jsonPath().prettify());
@@ -127,7 +135,9 @@ public class ClientSteps {
         logger.info("Successfully validated schema from Client object");
     }
 
-
+    /**
+     * This method deletes all clients created in this scenario
+     */
     @And("delete all clients registered in this scenario")
     public void deleteAllClientsRegisteredInThisScenario() {
         logger.info("Cleaning up: Deleting all created clients...");
@@ -149,6 +159,12 @@ public class ClientSteps {
 
     // Test Case 3 implementation
 
+    /**
+     * This method creates a new client with the given name
+     * @param name String with the name of the client to create
+     *             and saves the client ID
+     *             to retrieve the client later
+     */
     @Given("I will create a new client with the name {string}")
     public void iWillCreateANewClientWithName(String name) {
         clientRequest.createDefaultClients(1, name);
@@ -166,6 +182,9 @@ public class ClientSteps {
         selectedClientId = selectedClient.getId();
     }
 
+    /**
+     * This method retrieves the client
+     */
     @When("I retrieve the client")
     public void iRetrieveTheClient() {
         response = clientRequest.getClient(selectedClientId);
@@ -173,6 +192,10 @@ public class ClientSteps {
         Assert.assertEquals(200, response.statusCode());
     }
 
+    /**
+     * This method updates the client's city
+     * @param newCity String with the new city to update
+     */
     @And("I update the client's city to {string}")
     public void iUpdateTheClientCityTo(String newCity) {
         selectedClient.setCity(newCity);
@@ -181,6 +204,9 @@ public class ClientSteps {
         Assert.assertEquals(200, response.statusCode());
     }
 
+    /**
+     * This method validates the response structure against the client JSON schema
+     */
     @Then("the response structure matches the client JSON schema")
     public void theResponseStructureMatchesTheClientJsonSchema() {
         String schemaPath = "schemas/clientSchema.json";
@@ -188,6 +214,9 @@ public class ClientSteps {
         logger.info("Client response matches the JSON schema");
     }
 
+    /**
+     * This method deletes the client
+     */
     @And("I delete the client")
     public void iDeleteTheClient() {
         response = clientRequest.deleteClient(selectedClientId);
@@ -195,6 +224,9 @@ public class ClientSteps {
         Assert.assertEquals(200, response.statusCode());
     }
 
+    /**
+     * This method verifies the client no longer exists
+     */
     @Then("the client should no longer exist in the system")
     public void theClientShouldNoLongerExistInTheSystem() {
         response = clientRequest.getClient(selectedClientId);
