@@ -1,164 +1,1060 @@
-2024-09-12 21:22:27.632 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 21:22:27.636 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 21:22:27.637 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 21:22:29.705 INFO [api.stepDefinitions.ClientSteps:27] - [
+2024-09-13 20:48:27.334 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 20:48:27.342 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 20:48:27.342 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 20:48:29.230 INFO [api.stepDefinitions.ClientSteps:28] - [
+    
+]
+2024-09-13 20:48:33.254 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 1-716-634-3876 x3472
+2024-09-13 20:48:33.255 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 1-716-634-3876 x3472
+2024-09-13 20:48:33.258 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 20:48:33.577 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 20:48:33.589 INFO [api.stepDefinitions.ClientSteps:74] - Phone number updated successfully: 555-1234
+2024-09-13 20:48:33.593 INFO [api.stepDefinitions.ClientSteps:84] - {
+    "name": "Laura",
+    "lastName": "Jenkins",
+    "country": "Saint Kitts and Nevis",
+    "city": "Eloiseborough",
+    "email": "Cordie.Gibson32@yahoo.com",
+    "phone": "555-1234",
+    "id": "10"
+}
+2024-09-13 20:48:33.795 INFO [api.stepDefinitions.ClientSteps:87] - Successfully validated schema from Client object
+2024-09-13 20:48:33.796 INFO [api.stepDefinitions.ClientSteps:93] - Cleaning up: Deleting all created clients...
+2024-09-13 20:48:37.340 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 20:48:37.341 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 20:48:37.341 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 20:48:37.354 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 20:48:37.355 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 20:48:37.356 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 20:48:37.713 INFO [api.stepDefinitions.ResourceSteps:26] - [
     {
-        "name": "Ressie",
-        "lastName": "Leffler",
-        "country": "Mali",
-        "city": "Brennanchester",
-        "email": "Hadley_McGlynn72@yahoo.com",
-        "phone": "(342) 244-1461 x2575",
-        "id": "1",
-        "phoneNumber": null
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": true,
+        "id": "1"
     },
     {
-        "name": "Ned",
-        "lastName": "Ankunding",
-        "country": "Ghana",
-        "city": "Waco",
-        "email": "Grover84@yahoo.com",
-        "phone": "1-245-322-0620",
-        "id": "2",
-        "phoneNumber": null
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": true,
+        "id": "2"
     },
     {
-        "name": "Sigrid",
-        "lastName": "Padberg",
-        "country": "Ecuador",
-        "city": "Mikebury",
-        "email": "Parker65@gmail.com",
-        "phone": "650-467-6897 x6400",
-        "id": "3",
-        "phoneNumber": null
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": true,
+        "id": "3"
     },
     {
-        "name": "Juwan",
-        "lastName": "Murazik",
-        "country": "Panama",
-        "city": "Tampa",
-        "email": "Ross.Parisian15@hotmail.com",
-        "phone": "708-338-7023",
-        "id": "4",
-        "phoneNumber": null
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": true,
+        "id": "4"
     },
     {
-        "name": "Nikolas",
-        "lastName": "Jenkins",
-        "country": "Saint Kitts and Nevis",
-        "city": "Eloiseborough",
-        "email": "Cordie.Gibson32@yahoo.com",
-        "phone": "(504) 517-4725",
-        "id": "5",
-        "phoneNumber": null
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
     },
     {
-        "name": "Zula",
-        "lastName": "Bernier",
-        "country": "Brunei Darussalam",
-        "city": "Cummeratafort",
-        "email": "Abel_Rolfson@yahoo.com",
-        "phone": "(965) 941-7370 x421",
-        "id": "6",
-        "phoneNumber": null
+        "name": "Pizza",
+        "trademark": "Kihn - Langosh",
+        "stock": 28342,
+        "price": 48504.12,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "category",
+        "active": false,
+        "id": "6"
     },
+    {
+        "name": "Pizza",
+        "trademark": "Rippin - Reichel",
+        "stock": 50035,
+        "price": 8319.87,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "tags": "name",
+        "active": true,
+        "id": "7"
+    },
+    {
+        "name": "Hat",
+        "trademark": "Robel LLC",
+        "stock": 30786,
+        "price": 94823.54,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Chicken",
+        "trademark": "Schulist - Weimann",
+        "stock": 32547,
+        "price": 14478.81,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "avatar",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Kessler - Ryan",
+        "stock": 57824,
+        "price": 61730.83,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "name",
+        "active": true,
+        "id": "10"
+    },
+    {
+        "name": "Computer",
+        "trademark": "Osinski, Daniel and Jacobson",
+        "stock": 80337,
+        "price": 56084.85,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "updatedAt",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Wiza - Bradtke",
+        "stock": 48513,
+        "price": 27650.87,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "token",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "Cole - Hayes",
+        "stock": 93159,
+        "price": 25381.59,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "avatar",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Chicken",
+        "trademark": "Ritchie - Miller",
+        "stock": 26475,
+        "price": 7155.28,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "category",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Gutkowski, Shields and Legros",
+        "stock": 63265,
+        "price": 45845.66,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "tags": "avatar",
+        "active": false,
+        "id": "15"
+    },
+    {
+        "name": "Ball",
+        "trademark": "Paucek LLC",
+        "stock": 99735,
+        "price": 23371.28,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "tags": "updatedAt",
+        "active": true,
+        "id": "16"
+    },
+    {
+        "name": "Soap",
+        "trademark": "Hilll Inc",
+        "stock": 20003,
+        "price": 10871.98,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "id",
+        "active": true,
+        "id": "17"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "O'Connell LLC",
+        "stock": 39330,
+        "price": 45727.64,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "18"
+    },
+    {
+        "name": "Cheese",
+        "trademark": "Predovic, Ondricka and Schoen",
+        "stock": 53805,
+        "price": 22406.5,
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "tags": "name",
+        "active": false,
+        "id": "19"
+    },
+    {
+        "name": "Computer",
+        "trademark": "Mann Inc",
+        "stock": 13268,
+        "price": 92935.11,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "comment",
+        "active": false,
+        "id": "20"
+    },
+    {
+        "name": "Pants",
+        "trademark": "Windler - Haley",
+        "stock": 61966,
+        "price": 23742.2,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "email",
+        "active": false,
+        "id": "21"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Schaden LLC",
+        "stock": 26669,
+        "price": 24264.91,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "phone",
+        "active": true,
+        "id": "22"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Will and Sons",
+        "stock": 73990,
+        "price": 85607.17,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "name",
+        "active": false,
+        "id": "23"
+    },
+    {
+        "name": "Pants",
+        "trademark": "Lynch - Mayer",
+        "stock": 61988,
+        "price": 58638.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "password",
+        "active": false,
+        "id": "24"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Keebler - Lemke",
+        "stock": 90358,
+        "price": 49113.17,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "createdAt",
+        "active": false,
+        "id": "25"
+    }
+]
+2024-09-13 20:48:38.089 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 20:48:38.090 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 20:48:38.090 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 20:48:38.090 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=7, name=Pizza, trademark=Rippin - Reichel, stock=50035, price=8319.87, description=The Football Is Good For Training And Recreational Purposes, tags=name, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=10, name=Keyboard, trademark=Kessler - Ryan, stock=57824, price=61730.83, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=name, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=11, name=Computer, trademark=Osinski, Daniel and Jacobson, stock=80337, price=56084.85, description=Carbonite web goalkeeper gloves are ergonomically designed to give easy fit, tags=updatedAt, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=16, name=Ball, trademark=Paucek LLC, stock=99735, price=23371.28, description=Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles, tags=updatedAt, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=17, name=Soap, trademark=Hilll Inc, stock=20003, price=10871.98, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=id, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=22, name=Keyboard, trademark=Schaden LLC, stock=26669, price=24264.91, description=The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients, tags=phone, active=true)
+2024-09-13 20:48:38.091 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 10
+2024-09-13 20:48:38.462 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 1
+2024-09-13 20:48:38.777 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 2
+2024-09-13 20:48:39.103 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 3
+2024-09-13 20:48:39.445 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 4
+2024-09-13 20:48:39.752 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 7
+2024-09-13 20:48:40.084 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 10
+2024-09-13 20:48:40.414 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 11
+2024-09-13 20:48:40.750 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 16
+2024-09-13 20:48:41.061 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 17
+2024-09-13 20:48:41.388 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 22
+2024-09-13 20:48:41.401 INFO [api.stepDefinitions.ResourceSteps:88] - Response matches the resource schema
+2024-09-13 20:48:41.402 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 20:48:41.403 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 20:48:41.403 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:04:00.209 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:04:00.211 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:04:00.212 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:04:01.817 INFO [api.stepDefinitions.ClientSteps:28] - [
+    
+]
+2024-09-13 21:04:05.913 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 1-770-476-7395
+2024-09-13 21:04:05.913 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 1-770-476-7395
+2024-09-13 21:04:05.917 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:04:06.304 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:04:06.315 INFO [api.stepDefinitions.ClientSteps:74] - Phone number updated successfully: 555-1234
+2024-09-13 21:04:06.318 INFO [api.stepDefinitions.ClientSteps:84] - {
+    "name": "Laura",
+    "lastName": "Grant",
+    "country": "Cote d'Ivoire",
+    "city": "Gerardofield",
+    "email": "Evans.Schimmel74@hotmail.com",
+    "phone": "555-1234",
+    "id": "1"
+}
+2024-09-13 21:04:06.522 INFO [api.stepDefinitions.ClientSteps:87] - Successfully validated schema from Client object
+2024-09-13 21:04:06.524 INFO [api.stepDefinitions.ClientSteps:93] - Cleaning up: Deleting all created clients...
+2024-09-13 21:04:10.111 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:04:10.112 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:04:10.112 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:04:10.123 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:04:10.123 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:04:10.123 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:04:10.473 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "Kihn - Langosh",
+        "stock": 28342,
+        "price": 48504.12,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "category",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "Rippin - Reichel",
+        "stock": 50035,
+        "price": 8319.87,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "tags": "name",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Hat",
+        "trademark": "Robel LLC",
+        "stock": 30786,
+        "price": 94823.54,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Chicken",
+        "trademark": "Schulist - Weimann",
+        "stock": 32547,
+        "price": 14478.81,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "avatar",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Kessler - Ryan",
+        "stock": 57824,
+        "price": 61730.83,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "name",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Computer",
+        "trademark": "Osinski, Daniel and Jacobson",
+        "stock": 80337,
+        "price": 56084.85,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Wiza - Bradtke",
+        "stock": 48513,
+        "price": 27650.87,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "token",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "Cole - Hayes",
+        "stock": 93159,
+        "price": 25381.59,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "avatar",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Chicken",
+        "trademark": "Ritchie - Miller",
+        "stock": 26475,
+        "price": 7155.28,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "category",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Gutkowski, Shields and Legros",
+        "stock": 63265,
+        "price": 45845.66,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "tags": "avatar",
+        "active": false,
+        "id": "15"
+    },
+    {
+        "name": "Ball",
+        "trademark": "Paucek LLC",
+        "stock": 99735,
+        "price": 23371.28,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "Soap",
+        "trademark": "Hilll Inc",
+        "stock": 20003,
+        "price": 10871.98,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "id",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "Pizza",
+        "trademark": "O'Connell LLC",
+        "stock": 39330,
+        "price": 45727.64,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "updatedAt",
+        "active": false,
+        "id": "18"
+    },
+    {
+        "name": "Cheese",
+        "trademark": "Predovic, Ondricka and Schoen",
+        "stock": 53805,
+        "price": 22406.5,
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "tags": "name",
+        "active": false,
+        "id": "19"
+    },
+    {
+        "name": "Computer",
+        "trademark": "Mann Inc",
+        "stock": 13268,
+        "price": 92935.11,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "comment",
+        "active": false,
+        "id": "20"
+    },
+    {
+        "name": "Pants",
+        "trademark": "Windler - Haley",
+        "stock": 61966,
+        "price": 23742.2,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "email",
+        "active": false,
+        "id": "21"
+    },
+    {
+        "name": "Keyboard",
+        "trademark": "Schaden LLC",
+        "stock": 26669,
+        "price": 24264.91,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "phone",
+        "active": false,
+        "id": "22"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Will and Sons",
+        "stock": 73990,
+        "price": 85607.17,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "name",
+        "active": false,
+        "id": "23"
+    },
+    {
+        "name": "Pants",
+        "trademark": "Lynch - Mayer",
+        "stock": 61988,
+        "price": 58638.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "password",
+        "active": false,
+        "id": "24"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Keebler - Lemke",
+        "stock": 90358,
+        "price": 49113.17,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "createdAt",
+        "active": false,
+        "id": "25"
+    }
+]
+2024-09-13 21:04:12.559 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=26, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:04:12.559 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=27, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:04:12.559 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=28, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:04:12.561 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=29, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:04:12.561 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:04:12.891 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 26
+2024-09-13 21:04:13.198 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 27
+2024-09-13 21:04:13.524 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 28
+2024-09-13 21:04:13.855 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 29
+2024-09-13 21:04:13.867 INFO [api.stepDefinitions.ResourceSteps:88] - Response matches the resource schema
+2024-09-13 21:04:13.868 INFO [api.stepDefinitions.ResourceSteps:93] - Cleaning up: Deleting all created resources...
+2024-09-13 21:04:14.560 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 1
+2024-09-13 21:04:14.887 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 2
+2024-09-13 21:04:15.216 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 3
+2024-09-13 21:04:15.527 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 4
+2024-09-13 21:04:15.840 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 5
+2024-09-13 21:04:16.176 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 6
+2024-09-13 21:04:16.503 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 7
+2024-09-13 21:04:16.799 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 8
+2024-09-13 21:04:17.123 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 9
+2024-09-13 21:04:17.428 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 10
+2024-09-13 21:04:17.736 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 11
+2024-09-13 21:04:18.057 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 12
+2024-09-13 21:04:18.404 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 13
+2024-09-13 21:04:18.739 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 14
+2024-09-13 21:04:19.068 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 15
+2024-09-13 21:04:19.402 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 16
+2024-09-13 21:04:19.733 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 17
+2024-09-13 21:04:20.032 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 18
+2024-09-13 21:04:20.346 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 19
+2024-09-13 21:04:20.656 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 20
+2024-09-13 21:04:20.972 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 21
+2024-09-13 21:04:21.290 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 22
+2024-09-13 21:04:21.594 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 23
+2024-09-13 21:04:21.907 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 24
+2024-09-13 21:04:22.227 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 25
+2024-09-13 21:04:22.533 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 26
+2024-09-13 21:04:22.833 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 27
+2024-09-13 21:04:23.131 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 28
+2024-09-13 21:04:23.454 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 29
+2024-09-13 21:04:23.765 WARN [api.stepDefinitions.ResourceSteps:103] - Failed to delete resource: 30
+2024-09-13 21:04:23.766 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:04:23.767 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:04:23.767 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:08:13.011 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:08:13.013 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:08:13.013 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:08:14.651 INFO [api.stepDefinitions.ClientSteps:28] - [
+    
+]
+2024-09-13 21:08:18.703 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 1-770-476-7395
+2024-09-13 21:08:18.705 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 1-770-476-7395
+2024-09-13 21:08:18.710 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:08:19.023 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:08:19.034 INFO [api.stepDefinitions.ClientSteps:74] - Phone number updated successfully: 555-1234
+2024-09-13 21:08:19.036 INFO [api.stepDefinitions.ClientSteps:84] - {
+    "name": "Laura",
+    "lastName": "Grant",
+    "country": "Cote d'Ivoire",
+    "city": "Gerardofield",
+    "email": "Evans.Schimmel74@hotmail.com",
+    "phone": "555-1234",
+    "id": "2"
+}
+2024-09-13 21:08:19.211 INFO [api.stepDefinitions.ClientSteps:87] - Successfully validated schema from Client object
+2024-09-13 21:08:19.212 INFO [api.stepDefinitions.ClientSteps:93] - Cleaning up: Deleting all created clients...
+2024-09-13 21:08:22.901 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:08:22.902 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:08:22.902 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:08:22.915 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:08:22.915 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:08:22.915 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:08:23.234 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    
+]
+2024-09-13 21:08:25.215 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:08:25.215 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:08:25.216 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:08:25.216 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:08:25.216 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:08:25.554 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 1
+2024-09-13 21:08:25.890 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 2
+2024-09-13 21:08:26.198 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 3
+2024-09-13 21:08:26.504 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 4
+2024-09-13 21:08:26.543 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:08:26.544 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:08:26.544 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:10:16.743 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:10:16.746 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:10:16.746 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:10:18.371 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    }
+]
+2024-09-13 21:10:20.735 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=6, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:10:20.735 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=7, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:10:20.735 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=8, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:10:20.735 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=9, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:10:20.736 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:10:21.258 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 6
+2024-09-13 21:10:21.577 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 7
+2024-09-13 21:10:21.909 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 8
+2024-09-13 21:10:22.257 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 9
+2024-09-13 21:10:22.284 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:10:22.284 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:10:22.284 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:11:02.935 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:11:02.937 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:11:02.937 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:11:04.533 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "10"
+    }
+]
+2024-09-13 21:11:07.025 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=11, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:11:07.026 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=12, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:11:07.026 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=13, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:11:07.026 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=14, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:11:07.027 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:11:07.556 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 11
+2024-09-13 21:11:07.904 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 12
+2024-09-13 21:11:08.234 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 13
+2024-09-13 21:11:08.567 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 14
+2024-09-13 21:11:08.597 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:11:08.597 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:11:08.597 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:13:45.259 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:13:45.262 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:13:45.262 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:13:46.818 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "15"
+    }
+]
+2024-09-13 21:13:49.218 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=16, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:13:49.218 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=17, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:13:49.219 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=18, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:13:49.219 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=19, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:13:49.219 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:13:49.721 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 16
+2024-09-13 21:13:50.025 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 17
+2024-09-13 21:13:50.355 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 18
+2024-09-13 21:13:50.708 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 19
+2024-09-13 21:13:50.735 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:13:50.736 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:13:50.736 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:15:09.886 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:15:09.888 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:15:09.889 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:15:11.514 INFO [api.stepDefinitions.ClientSteps:28] - [
+    
+]
+2024-09-13 21:15:15.715 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 1-716-634-3876 x3472
+2024-09-13 21:15:15.716 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 1-716-634-3876 x3472
+2024-09-13 21:15:15.719 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:15:16.050 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:15:16.233 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:15:16.233 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:15:16.233 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:16:53.078 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:16:53.080 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:16:53.080 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:16:54.721 INFO [api.stepDefinitions.ClientSteps:28] - [
     {
         "name": "Austyn",
         "lastName": "Lockman",
         "country": "Niger",
         "city": "New Katrine",
         "email": "Jalyn_Von51@yahoo.com",
-        "phone": "906-912-4118 x0340",
-        "id": "7",
-        "phoneNumber": null
-    },
-    {
-        "name": "Laura",
-        "lastName": "Schuppe",
-        "country": "Greece",
-        "city": "Harmonyland",
-        "email": "Clotilde.Cummings@gmail.com",
-        "phone": "938-860-7364 x76436",
-        "id": "8",
-        "phoneNumber": null
-    },
-    {
-        "name": "Gayle",
-        "lastName": "Becker",
-        "country": "Serbia",
-        "city": "Mission",
-        "email": "Barney_Shields24@hotmail.com",
-        "phone": "(430) 974-0240",
-        "id": "9",
-        "phoneNumber": null
-    },
-    {
-        "name": "Hipolito",
-        "lastName": "Grant",
-        "country": "Cote d'Ivoire",
-        "city": "Gerardofield",
-        "email": "Evans.Schimmel74@hotmail.com",
-        "phone": "(308) 792-2561",
-        "id": "10",
-        "phoneNumber": null
-    }
-]
-2024-09-12 21:22:29.998 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 21:22:29.999 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 21:22:29.999 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 21:27:05.773 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 21:27:05.775 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 21:27:05.776 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 21:27:07.586 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
-]
-2024-09-12 21:27:11.565 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: (360) 512-0378 x76638
-2024-09-12 21:27:11.567 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: (360) 512-0378 x76638
-2024-09-12 21:27:11.570 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 21:27:11.998 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 21:27:12.011 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 21:27:12.322 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 21:27:12.323 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 21:27:12.323 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 22:18:50.835 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 22:18:50.839 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 22:18:50.840 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 22:18:53.074 INFO [api.stepDefinitions.ClientSteps:27] - [
-    {
-        "name": "Pasquale",
-        "lastName": "Gulgowski",
-        "country": "Bolivia",
-        "city": "Cronaview",
-        "email": "Kale_Heidenreich68@hotmail.com",
-        "phone": "1-975-525-1325",
+        "phone": "1-253-651-8586 x094",
         "id": "1"
     },
     {
-        "name": "Nikolas",
+        "name": "Laura",
         "lastName": "Jenkins",
         "country": "Saint Kitts and Nevis",
         "city": "Eloiseborough",
         "email": "Cordie.Gibson32@yahoo.com",
-        "phone": "1-716-634-3876 x3472",
+        "phone": "555-1234",
         "id": "2"
-    },
-    {
-        "name": "Providenci",
-        "lastName": "Mueller",
-        "country": "Montenegro",
-        "city": "Waterbury",
-        "email": "Quincy.Hackett88@yahoo.com",
-        "phone": "1-404-473-0914 x91162",
-        "id": "3"
-    },
-    {
-        "name": "Dorthy",
-        "lastName": "Miller",
-        "country": "Romania",
-        "city": "West Rose",
-        "email": "Marshall.Reilly43@gmail.com",
-        "phone": "1-368-488-6363 x238",
-        "id": "4"
     },
     {
         "name": "Stephany",
@@ -167,34 +1063,34 @@
         "city": "Middletown",
         "email": "Arely.Kshlerin@gmail.com",
         "phone": "1-944-922-4709",
+        "id": "3"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Rolfson",
+        "country": "Virgin Islands, U.S.",
+        "city": "Samsonview",
+        "email": "Wallace_Gleason94@hotmail.com",
+        "phone": "521-970-1266 x697",
+        "id": "4"
+    },
+    {
+        "name": "Providenci",
+        "lastName": "Mueller",
+        "country": "Montenegro",
+        "city": "Waterbury",
+        "email": "Quincy.Hackett88@yahoo.com",
+        "phone": "1-404-473-0914 x91162",
         "id": "5"
     },
     {
-        "name": "Sigrid",
-        "lastName": "Padberg",
-        "country": "Ecuador",
-        "city": "Mikebury",
-        "email": "Parker65@gmail.com",
-        "phone": "(870) 310-9659 x8431",
+        "name": "Fanny",
+        "lastName": "Kemmer",
+        "country": "Western Sahara",
+        "city": "Beckerbury",
+        "email": "Kaylee6@gmail.com",
+        "phone": "1-432-833-8147",
         "id": "6"
-    },
-    {
-        "name": "Xavier",
-        "lastName": "Hermiston",
-        "country": "Guyana",
-        "city": "South Hill",
-        "email": "Catharine_Stracke@yahoo.com",
-        "phone": "646.891.7477 x67360",
-        "id": "7"
-    },
-    {
-        "name": "Zula",
-        "lastName": "Bernier",
-        "country": "Brunei Darussalam",
-        "city": "Cummeratafort",
-        "email": "Abel_Rolfson@yahoo.com",
-        "phone": "(331) 818-8936 x530",
-        "id": "8"
     },
     {
         "name": "Alexandro",
@@ -203,139 +1099,597 @@
         "city": "Romabury",
         "email": "Viviane57@gmail.com",
         "phone": "(704) 375-4740 x9220",
+        "id": "7"
+    },
+    {
+        "name": "Juwan",
+        "lastName": "Murazik",
+        "country": "Panama",
+        "city": "Tampa",
+        "email": "Ross.Parisian15@hotmail.com",
+        "phone": "603-450-1265 x43280",
+        "id": "8"
+    },
+    {
+        "name": "Jesus",
+        "lastName": "Terry",
+        "country": "Iceland",
+        "city": "Vivienworth",
+        "email": "Cristobal92@hotmail.com",
+        "phone": "(738) 925-0576",
         "id": "9"
     },
     {
         "name": "Laura",
-        "lastName": "Mraz",
-        "country": "Cambodia",
-        "city": "Adancester",
-        "email": "Nella95@gmail.com",
-        "phone": "555-1234",
+        "lastName": "Leffler",
+        "country": "Mali",
+        "city": "Brennanchester",
+        "email": "Hadley_McGlynn72@yahoo.com",
+        "phone": "1-617-805-0811 x967",
         "id": "10"
     }
 ]
-2024-09-12 22:18:53.742 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 555-1234
-2024-09-12 22:18:53.743 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 555-1234
-2024-09-12 22:18:53.746 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 22:18:54.142 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 22:18:54.166 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 22:18:54.166 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 22:18:54.167 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 22:24:20.488 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 22:24:20.490 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 22:24:20.490 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 22:24:22.384 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
+2024-09-13 21:16:55.297 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 555-1234
+2024-09-13 21:16:55.297 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 555-1234
+2024-09-13 21:16:55.300 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:16:55.701 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:16:55.896 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:16:55.896 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:16:55.896 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:17:30.819 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:17:30.821 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:17:30.821 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:17:32.446 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Austyn",
+        "lastName": "Lockman",
+        "country": "Niger",
+        "city": "New Katrine",
+        "email": "Jalyn_Von51@yahoo.com",
+        "phone": "1-253-651-8586 x094",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Jenkins",
+        "country": "Saint Kitts and Nevis",
+        "city": "Eloiseborough",
+        "email": "Cordie.Gibson32@yahoo.com",
+        "phone": "555-1234",
+        "id": "2"
+    },
+    {
+        "name": "Stephany",
+        "lastName": "Wyman",
+        "country": "Greece",
+        "city": "Middletown",
+        "email": "Arely.Kshlerin@gmail.com",
+        "phone": "1-944-922-4709",
+        "id": "3"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Rolfson",
+        "country": "Virgin Islands, U.S.",
+        "city": "Samsonview",
+        "email": "Wallace_Gleason94@hotmail.com",
+        "phone": "521-970-1266 x697",
+        "id": "4"
+    },
+    {
+        "name": "Providenci",
+        "lastName": "Mueller",
+        "country": "Montenegro",
+        "city": "Waterbury",
+        "email": "Quincy.Hackett88@yahoo.com",
+        "phone": "1-404-473-0914 x91162",
+        "id": "5"
+    },
+    {
+        "name": "Fanny",
+        "lastName": "Kemmer",
+        "country": "Western Sahara",
+        "city": "Beckerbury",
+        "email": "Kaylee6@gmail.com",
+        "phone": "1-432-833-8147",
+        "id": "6"
+    },
+    {
+        "name": "Alexandro",
+        "lastName": "Hagenes",
+        "country": "Zambia",
+        "city": "Romabury",
+        "email": "Viviane57@gmail.com",
+        "phone": "(704) 375-4740 x9220",
+        "id": "7"
+    },
+    {
+        "name": "Juwan",
+        "lastName": "Murazik",
+        "country": "Panama",
+        "city": "Tampa",
+        "email": "Ross.Parisian15@hotmail.com",
+        "phone": "603-450-1265 x43280",
+        "id": "8"
+    },
+    {
+        "name": "Jesus",
+        "lastName": "Terry",
+        "country": "Iceland",
+        "city": "Vivienworth",
+        "email": "Cristobal92@hotmail.com",
+        "phone": "(738) 925-0576",
+        "id": "9"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Leffler",
+        "country": "Mali",
+        "city": "Brennanchester",
+        "email": "Hadley_McGlynn72@yahoo.com",
+        "phone": "1-617-805-0811 x967",
+        "id": "10"
+    }
 ]
-2024-09-12 22:24:26.356 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-404-473-0914 x91162
-2024-09-12 22:24:26.357 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-404-473-0914 x91162
-2024-09-12 22:24:26.360 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 22:24:26.681 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 22:24:26.694 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 22:24:26.979 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 22:24:26.979 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 22:24:26.980 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 22:44:16.414 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 22:44:16.416 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 22:44:16.417 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 22:44:18.385 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
+2024-09-13 21:17:32.998 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 555-1234
+2024-09-13 21:17:32.999 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 555-1234
+2024-09-13 21:17:33.002 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:17:33.387 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:17:33.596 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:17:33.597 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:17:33.597 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:18:15.330 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:18:15.332 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:18:15.332 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:18:16.789 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Austyn",
+        "lastName": "Lockman",
+        "country": "Niger",
+        "city": "New Katrine",
+        "email": "Jalyn_Von51@yahoo.com",
+        "phone": "1-253-651-8586 x094",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Jenkins",
+        "country": "Saint Kitts and Nevis",
+        "city": "Eloiseborough",
+        "email": "Cordie.Gibson32@yahoo.com",
+        "phone": "555-1234",
+        "id": "2"
+    },
+    {
+        "name": "Stephany",
+        "lastName": "Wyman",
+        "country": "Greece",
+        "city": "Middletown",
+        "email": "Arely.Kshlerin@gmail.com",
+        "phone": "1-944-922-4709",
+        "id": "3"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Rolfson",
+        "country": "Virgin Islands, U.S.",
+        "city": "Samsonview",
+        "email": "Wallace_Gleason94@hotmail.com",
+        "phone": "521-970-1266 x697",
+        "id": "4"
+    },
+    {
+        "name": "Providenci",
+        "lastName": "Mueller",
+        "country": "Montenegro",
+        "city": "Waterbury",
+        "email": "Quincy.Hackett88@yahoo.com",
+        "phone": "1-404-473-0914 x91162",
+        "id": "5"
+    },
+    {
+        "name": "Fanny",
+        "lastName": "Kemmer",
+        "country": "Western Sahara",
+        "city": "Beckerbury",
+        "email": "Kaylee6@gmail.com",
+        "phone": "1-432-833-8147",
+        "id": "6"
+    },
+    {
+        "name": "Alexandro",
+        "lastName": "Hagenes",
+        "country": "Zambia",
+        "city": "Romabury",
+        "email": "Viviane57@gmail.com",
+        "phone": "(704) 375-4740 x9220",
+        "id": "7"
+    },
+    {
+        "name": "Juwan",
+        "lastName": "Murazik",
+        "country": "Panama",
+        "city": "Tampa",
+        "email": "Ross.Parisian15@hotmail.com",
+        "phone": "603-450-1265 x43280",
+        "id": "8"
+    },
+    {
+        "name": "Jesus",
+        "lastName": "Terry",
+        "country": "Iceland",
+        "city": "Vivienworth",
+        "email": "Cristobal92@hotmail.com",
+        "phone": "(738) 925-0576",
+        "id": "9"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Leffler",
+        "country": "Mali",
+        "city": "Brennanchester",
+        "email": "Hadley_McGlynn72@yahoo.com",
+        "phone": "1-617-805-0811 x967",
+        "id": "10"
+    }
 ]
-2024-09-12 22:44:22.588 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-368-488-6363 x238
-2024-09-12 22:44:22.589 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-368-488-6363 x238
-2024-09-12 22:44:22.592 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 22:44:22.907 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 22:44:22.919 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 22:44:23.196 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 22:44:23.197 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 22:44:23.197 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-12 23:12:40.471 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
-2024-09-12 23:12:40.474 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 23:12:40.474 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 23:12:42.603 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
+2024-09-13 21:18:17.341 INFO [api.stepDefinitions.ClientSteps:50] - Found client named Laura with phone number: 555-1234
+2024-09-13 21:18:17.342 INFO [api.stepDefinitions.ClientSteps:67] - Saving the current phone number: 555-1234
+2024-09-13 21:18:17.345 INFO [api.stepDefinitions.ClientSteps:58] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:18:17.752 INFO [api.stepDefinitions.ClientSteps:61] - Updated phone number to: 555-1234
+2024-09-13 21:18:17.766 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:18:17.766 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:18:17.767 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:18:17.781 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:18:17.781 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:18:17.781 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:18:18.167 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "15"
+    },
+    {
+        "name": "Bike",
+        "trademark": "Jones Group",
+        "stock": 4206,
+        "price": 23702.66,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "tags": "id",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Mayer - Friesen",
+        "stock": 58873,
+        "price": 98985.64,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "Shoes",
+        "trademark": "Rowe, Ritchie and Kunde",
+        "stock": 63645,
+        "price": 63152.26,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "tags": "id",
+        "active": false,
+        "id": "18"
+    },
+    {
+        "name": "Sausages",
+        "trademark": "Streich Inc",
+        "stock": 91856,
+        "price": 64325.9,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "tags": "password",
+        "active": false,
+        "id": "19"
+    },
+    {
+        "name": "Gloves",
+        "trademark": "Jast, Moore and Hirthe",
+        "stock": 8313,
+        "price": 54820.79,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "20"
+    }
 ]
-2024-09-12 23:12:46.574 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: (704) 375-4740 x9220
-2024-09-12 23:12:46.576 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: (704) 375-4740 x9220
-2024-09-12 23:12:46.579 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 23:12:46.884 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 23:12:46.899 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 23:12:46.901 INFO [api.stepDefinitions.ClientSteps:83] - io.restassured.internal.RestAssuredResponseImpl@395281c2
-2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
-2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 23:12:47.155 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
-2024-09-12 23:12:50.662 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
-2024-09-12 23:14:45.171 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
-2024-09-12 23:14:45.174 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 23:14:45.174 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 23:14:47.347 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
+2024-09-13 21:18:20.338 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=21, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:18:20.338 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=22, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:18:20.338 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=23, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:18:20.339 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=24, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:18:20.339 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:18:20.874 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 21
+2024-09-13 21:18:21.208 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 22
+2024-09-13 21:18:21.533 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 23
+2024-09-13 21:18:21.858 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 24
+2024-09-13 21:18:21.869 INFO [api.stepDefinitions.ResourceSteps:88] - Response matches the resource schema
+2024-09-13 21:18:21.869 INFO [api.stepDefinitions.ResourceSteps:93] - Cleaning up: Deleting all created resources...
+2024-09-13 21:18:30.782 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:18:30.783 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:18:30.783 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:20:35.458 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:20:35.460 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:20:35.460 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:20:37.024 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "Austyn",
+        "lastName": "Lockman",
+        "country": "Niger",
+        "city": "New Katrine",
+        "email": "Jalyn_Von51@yahoo.com",
+        "phone": "1-253-651-8586 x094",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Jenkins",
+        "country": "Saint Kitts and Nevis",
+        "city": "Eloiseborough",
+        "email": "Cordie.Gibson32@yahoo.com",
+        "phone": "555-1234",
+        "id": "2"
+    },
+    {
+        "name": "Stephany",
+        "lastName": "Wyman",
+        "country": "Greece",
+        "city": "Middletown",
+        "email": "Arely.Kshlerin@gmail.com",
+        "phone": "1-944-922-4709",
+        "id": "3"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Rolfson",
+        "country": "Virgin Islands, U.S.",
+        "city": "Samsonview",
+        "email": "Wallace_Gleason94@hotmail.com",
+        "phone": "521-970-1266 x697",
+        "id": "4"
+    },
+    {
+        "name": "Providenci",
+        "lastName": "Mueller",
+        "country": "Montenegro",
+        "city": "Waterbury",
+        "email": "Quincy.Hackett88@yahoo.com",
+        "phone": "1-404-473-0914 x91162",
+        "id": "5"
+    },
+    {
+        "name": "Fanny",
+        "lastName": "Kemmer",
+        "country": "Western Sahara",
+        "city": "Beckerbury",
+        "email": "Kaylee6@gmail.com",
+        "phone": "1-432-833-8147",
+        "id": "6"
+    },
+    {
+        "name": "Alexandro",
+        "lastName": "Hagenes",
+        "country": "Zambia",
+        "city": "Romabury",
+        "email": "Viviane57@gmail.com",
+        "phone": "(704) 375-4740 x9220",
+        "id": "7"
+    },
+    {
+        "name": "Juwan",
+        "lastName": "Murazik",
+        "country": "Panama",
+        "city": "Tampa",
+        "email": "Ross.Parisian15@hotmail.com",
+        "phone": "603-450-1265 x43280",
+        "id": "8"
+    },
+    {
+        "name": "Jesus",
+        "lastName": "Terry",
+        "country": "Iceland",
+        "city": "Vivienworth",
+        "email": "Cristobal92@hotmail.com",
+        "phone": "(738) 925-0576",
+        "id": "9"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Leffler",
+        "country": "Mali",
+        "city": "Brennanchester",
+        "email": "Hadley_McGlynn72@yahoo.com",
+        "phone": "1-617-805-0811 x967",
+        "id": "10"
+    }
 ]
-2024-09-12 23:14:51.364 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 646.891.7477 x67360
-2024-09-12 23:14:51.366 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 646.891.7477 x67360
-2024-09-12 23:14:51.370 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 23:14:51.669 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 23:14:51.686 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 23:14:51.689 INFO [api.stepDefinitions.ClientSteps:83] - {
+2024-09-13 21:20:37.741 INFO [api.stepDefinitions.ClientSteps:51] - Found client named Laura with phone number: 555-1234
+2024-09-13 21:20:37.742 INFO [api.stepDefinitions.ClientSteps:71] - Saving the current phone number: 555-1234
+2024-09-13 21:20:37.747 INFO [api.stepDefinitions.ClientSteps:59] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:20:38.162 INFO [api.stepDefinitions.ClientSteps:65] - Updated phone number to: 555-12341
+2024-09-13 21:20:38.183 INFO [api.stepDefinitions.ClientSteps:78] - Phone number updated successfully: 555-12341
+2024-09-13 21:20:38.185 INFO [api.stepDefinitions.ClientSteps:88] - {
     "name": "Laura",
-    "lastName": "Hermiston",
-    "country": "Guyana",
-    "city": "South Hill",
-    "email": "Catharine_Stracke@yahoo.com",
-    "phone": "555-1234",
+    "lastName": "Jenkins",
+    "country": "Saint Kitts and Nevis",
+    "city": "Eloiseborough",
+    "email": "Cordie.Gibson32@yahoo.com",
+    "phone": "555-12341",
     "id": "2"
 }
-2024-09-12 23:14:51.948 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
-2024-09-12 23:14:51.949 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 23:14:51.949 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
-2024-09-12 23:14:55.388 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
-2024-09-12 23:15:54.622 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
-2024-09-12 23:15:54.626 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 23:15:54.626 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 23:15:56.833 INFO [api.stepDefinitions.ClientSteps:27] - [
+2024-09-13 21:20:38.376 INFO [api.stepDefinitions.ClientSteps:91] - Successfully validated schema from Client object
+2024-09-13 21:20:38.377 INFO [api.stepDefinitions.ClientSteps:97] - Cleaning up: Deleting all created clients...
+2024-09-13 21:20:42.075 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:20:42.075 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:20:42.075 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:20:42.090 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:20:42.090 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:20:42.090 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:20:42.418 INFO [api.stepDefinitions.ResourceSteps:26] - [
     
 ]
-2024-09-12 23:16:00.852 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 521-970-1266 x697
-2024-09-12 23:16:00.853 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 521-970-1266 x697
-2024-09-12 23:16:00.857 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 23:16:01.161 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 23:16:01.171 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 23:16:01.174 INFO [api.stepDefinitions.ClientSteps:83] - {
-    "name": "Laura",
-    "lastName": "Rolfson",
-    "country": "Virgin Islands, U.S.",
-    "city": "Samsonview",
-    "email": "Wallace_Gleason94@hotmail.com",
-    "phone": "555-1234",
-    "id": "1"
-}
-2024-09-12 23:16:01.418 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
-2024-09-12 23:16:01.418 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 23:16:01.419 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
-2024-09-12 23:16:04.885 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
-2024-09-12 23:18:53.261 INFO [api.stepDefinitions.Hooks:22] - *****************************************************************************************
-2024-09-12 23:18:53.264 INFO [api.stepDefinitions.Hooks:23] - 	Scenario: Update the phone number of the first client named Laura
-2024-09-12 23:18:53.264 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 23:18:55.314 INFO [api.stepDefinitions.ClientSteps:27] - [
-    
-]
-2024-09-12 23:18:59.275 INFO [api.stepDefinitions.ClientSteps:49] - Found client named Laura with phone number: 1-975-525-1325
-2024-09-12 23:18:59.276 INFO [api.stepDefinitions.ClientSteps:66] - Saving the current phone number: 1-975-525-1325
-2024-09-12 23:18:59.278 INFO [api.stepDefinitions.ClientSteps:57] - Attempting to update the phone number of Laura to: 555-1234
-2024-09-12 23:18:59.606 INFO [api.stepDefinitions.ClientSteps:60] - Updated phone number to: 555-1234
-2024-09-12 23:18:59.620 INFO [api.stepDefinitions.ClientSteps:73] - Phone number updated successfully: 555-1234
-2024-09-12 23:18:59.623 INFO [api.stepDefinitions.ClientSteps:83] - {
-    "name": "Laura",
-    "lastName": "Gulgowski",
-    "country": "Bolivia",
-    "city": "Cronaview",
-    "email": "Kale_Heidenreich68@hotmail.com",
-    "phone": "555-1234",
-    "id": "3"
-}
-2024-09-12 23:18:59.864 INFO [api.stepDefinitions.ClientSteps:86] - Successfully validated schema from Client object
-2024-09-12 23:18:59.866 INFO [api.stepDefinitions.Hooks:30] - *****************************************************************************************
-2024-09-12 23:18:59.867 INFO [api.stepDefinitions.Hooks:31] - Scenario finished: Update the phone number of the first client named Laura
-2024-09-12 23:18:59.867 INFO [api.stepDefinitions.Hooks:32] - Cleaning up: Deleting all created clients...
-2024-09-12 23:19:03.309 INFO [api.stepDefinitions.Hooks:47] - *****************************************************************************************
+2024-09-13 21:20:44.512 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:20:44.513 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:20:44.513 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:20:44.513 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:20:44.513 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:20:44.866 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 1
+2024-09-13 21:20:45.198 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 2
+2024-09-13 21:20:45.510 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 3
+2024-09-13 21:20:45.876 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 4
+2024-09-13 21:20:45.884 INFO [api.stepDefinitions.ResourceSteps:88] - Response matches the resource schema
+2024-09-13 21:20:45.885 INFO [api.stepDefinitions.ResourceSteps:93] - Cleaning up: Deleting all created resources...
+2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************

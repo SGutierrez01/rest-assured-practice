@@ -1,5 +1,5 @@
 
-@active @smoke
+@Clients @TestCase1
 Scenario: Update the phone number of the first client named Laura                          # src/test/resources/features/client_testing_crud.feature:5
   Given there are at least 10 registered clients and at least one of them is named "Laura" # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredClientsInTheSystem(int,java.lang.String)
   When I search for the first client named "Laura"                                         # com.testing.api.stepDefinitions.ClientSteps.searchForFirstClientNamed(java.lang.String)
@@ -8,3 +8,14 @@ Scenario: Update the phone number of the first client named Laura               
   Then the response should have a status code of 200                                       # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
   And the new phone number should be different from the original                           # com.testing.api.stepDefinitions.ClientSteps.verifyPhoneNumberHasChanged()
   And validates the response with the client JSON schema                                   # com.testing.api.stepDefinitions.ClientSteps.validatesResponseWithClientSchema()
+  And delete all clients registered in this scenario                                       # com.testing.api.stepDefinitions.ClientSteps.deleteAllClientsRegisteredInThisScenario()
+
+@Resources @TestCase2
+Scenario: Get the list of active resources and update them to inactive # src/test/resources/features/resource_tesing_crud.feature:5
+  Given there are at least 5 resources with status "active"            # com.testing.api.stepDefinitions.ResourceSteps.thereAreAtLeastResourcesWithStatusActive(int,java.lang.String)
+  When I retrieve all active resources                                 # com.testing.api.stepDefinitions.ResourceSteps.iRetrieveAllActiveResources()
+  Then the list of active resources should be retrieved successfully   # com.testing.api.stepDefinitions.ResourceSteps.theListOfActiveResourcesShouldBeRetrievedSuccessfully()
+  And I update all these resources to inactive                         # com.testing.api.stepDefinitions.ResourceSteps.iUpdateAllTheseResourcesToInactive()
+  And the response of put request should have a status code of 200     # com.testing.api.stepDefinitions.ResourceSteps.theResponseOfPutRequestShouldHaveAStatusCodeOf(int)
+  And the response structure matches the resource schema               # com.testing.api.stepDefinitions.ResourceSteps.theResponseStructureMatchesTheResourceSchema()
+  And delete all resources registered in this scenario                 # com.testing.api.stepDefinitions.ResourceSteps.deleteAllResourcesRegisteredInThisScenario()

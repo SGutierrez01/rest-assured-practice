@@ -2,6 +2,7 @@ package com.testing.api.requests;
 
 import com.testing.api.utils.Constants;
 import io.restassured.RestAssured;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
@@ -85,5 +86,23 @@ public class BaseRequest {
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
         return headers;
+    }
+
+    /**
+     * Validate the response schema
+     * @param response rest-assured response
+     * @param schemaPath string
+     * @return boolean
+     */
+    public boolean  validateSchema(Response response, String schemaPath) {
+        try {
+            response.then()
+                    .assertThat()
+                    .body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath));
+            return true; // Return true if the assertion passes
+        } catch (AssertionError e) {
+            // Assertion failed, return false
+            return false;
+        }
     }
 }

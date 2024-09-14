@@ -21,7 +21,7 @@
         "type": "string"
       },
       "id": {
-        "type": "integer"
+        "type": "string"
       }
     },
     "required": [

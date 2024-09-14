@@ -15,7 +15,6 @@ import java.util.List;
 
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
-    private final ClientRequest clientRequest = new ClientRequest();
 
     @Before
     public void testStart(Scenario scenario) {
@@ -29,21 +28,6 @@ public class Hooks {
     public void cleanUp(Scenario scenario) {
         logger.info("*****************************************************************************************");
         logger.info("Scenario finished: " + scenario.getName());
-        logger.info("Cleaning up: Deleting all created clients...");
-
-        Response response = clientRequest.getClients();
-        if (response.statusCode() == 200) {
-            List<Client> clientsToDelete = clientRequest.getClientsEntity(response);
-            for (Client client : clientsToDelete) {
-                Response deleteResponse = clientRequest.deleteClient(client.getId());
-                if (deleteResponse.statusCode() != 200) {
-                    logger.error("Failed to delete client with ID: " + client.getId());
-                }
-            }
-        } else {
-            logger.error("Failed to retrieve clients for cleanup.");
-        }
-
         logger.info("*****************************************************************************************");
     }
 }

@@ -74,6 +74,8 @@ public class ClientRequest extends BaseRequest {
 
     /**
      * Create default clients
+     * @param numberOfClient amount of clients to create
+     * @param requiredName name required to test
      */
     public void createDefaultClients(int numberOfClient, String requiredName) {
         JsonFileReader jsonFileReader = new JsonFileReader();
@@ -88,24 +90,6 @@ public class ClientRequest extends BaseRequest {
             } else {
                 System.out.println("Client created successfully: " + client.getName());
             }
-        }
-    }
-
-    /**
-     * Validate the response schema
-     * @param response rest-assured response
-     * @param schemaPath string
-     * @return boolean
-     */
-    public boolean validateSchema(Response response, String schemaPath) {
-        try {
-            response.then()
-                    .assertThat()
-                    .body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath));
-            return true; // Return true if the assertion passes
-        } catch (AssertionError e) {
-            // Assertion failed, return false
-            return false;
         }
     }
 }

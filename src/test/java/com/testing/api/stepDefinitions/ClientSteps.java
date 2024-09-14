@@ -2,6 +2,7 @@ package com.testing.api.stepDefinitions;
 
 import com.testing.api.models.Client;
 import com.testing.api.requests.ClientRequest;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,6 +12,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 public class ClientSteps {
@@ -55,6 +57,9 @@ public class ClientSteps {
     @When("I update the phone number of {string} to {string}")
     public void updatePhoneNumber(String name, String newPhoneNumber) {
         logger.info("Attempting to update the phone number of " + name + " to: " + newPhoneNumber);
+        if (Objects.equals(client.getPhone(), newPhoneNumber)){
+            newPhoneNumber = newPhoneNumber + "1";
+        }
         client.setPhone(newPhoneNumber);
         response = clientRequest.updateClient(client, client.getId());
         logger.info("Updated phone number to: " + newPhoneNumber);
@@ -87,4 +92,21 @@ public class ClientSteps {
     }
 
 
+    @And("delete all clients registered in this scenario")
+    public void deleteAllClientsRegisteredInThisScenario() {
+        logger.info("Cleaning up: Deleting all created clients...");
+
+        Response AllClientsResponse = clientRequest.getClients();
+        if (AllClientsResponse.statusCode() == 200) {
+            List<Client> clientsToDelete = clientRequest.getClientsEntity(AllClientsResponse);
+            for (Client client : clientsToDelete) {
+                Response deleteResponse = clientRequest.deleteClient(client.getId());
+                if (deleteResponse.statusCode() != 200) {
+                    logger.error("Failed to delete client with ID: {}", client.getId());
+                }
+            }
+        } else {
+            logger.error("Failed to retrieve clients for cleanup.");
+        }
+    }
 }
