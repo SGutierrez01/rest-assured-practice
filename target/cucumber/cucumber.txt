@@ -10,6 +10,16 @@ Scenario: Update the phone number of the first client named Laura               
   And validates the response with the client JSON schema                                   # com.testing.api.stepDefinitions.ClientSteps.validatesResponseWithClientSchema()
   And delete all clients registered in this scenario                                       # com.testing.api.stepDefinitions.ClientSteps.deleteAllClientsRegisteredInThisScenario()
 
+@Clients @TestCase3
+Scenario: Update and Delete a new client with name "John"   # src/test/resources/features/client_testing_crud.feature:16
+  Given I will create a new client with the name "John"     # com.testing.api.stepDefinitions.ClientSteps.iWillCreateANewClientWithName(java.lang.String)
+  When I retrieve the client                                # com.testing.api.stepDefinitions.ClientSteps.iRetrieveTheClient()
+  And I update the client's city to "San Francisco"         # com.testing.api.stepDefinitions.ClientSteps.iUpdateTheClientCityTo(java.lang.String)
+  Then the response should have a status code of 200        # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the response structure matches the client JSON schema # com.testing.api.stepDefinitions.ClientSteps.theResponseStructureMatchesTheClientJsonSchema()
+  And I delete the client                                   # com.testing.api.stepDefinitions.ClientSteps.iDeleteTheClient()
+  Then the client should no longer exist in the system      # com.testing.api.stepDefinitions.ClientSteps.theClientShouldNoLongerExistInTheSystem()
+
 @Resources @TestCase2
 Scenario: Get the list of active resources and update them to inactive # src/test/resources/features/resource_tesing_crud.feature:5
   Given there are at least 5 resources with status "active"            # com.testing.api.stepDefinitions.ResourceSteps.thereAreAtLeastResourcesWithStatusActive(int,java.lang.String)
@@ -19,3 +29,13 @@ Scenario: Get the list of active resources and update them to inactive # src/tes
   And the response of put request should have a status code of 200     # com.testing.api.stepDefinitions.ResourceSteps.theResponseOfPutRequestShouldHaveAStatusCodeOf(int)
   And the response structure matches the resource schema               # com.testing.api.stepDefinitions.ResourceSteps.theResponseStructureMatchesTheResourceSchema()
   And delete all resources registered in this scenario                 # com.testing.api.stepDefinitions.ResourceSteps.deleteAllResourcesRegisteredInThisScenario()
+
+@Resources @TestCase4
+Scenario: Update the last created resource                          # src/test/resources/features/resource_tesing_crud.feature:15
+  Given there are at least 15 resources in the system               # com.testing.api.stepDefinitions.ResourceSteps.thereAreAtLeastResourcesInTheSystem(int)
+  When I retrieve the latest created resource                       # com.testing.api.stepDefinitions.ResourceSteps.iRetrieveTheLatestCreatedResource()
+  And I update all the parameters of this resource                  # com.testing.api.stepDefinitions.ResourceSteps.iUpdateAllTheParametersOfThisResource()
+  Then the response of put request should have a status code of 200 # com.testing.api.stepDefinitions.ResourceSteps.theResponseOfPutRequestShouldHaveAStatusCodeOf(int)
+  And the response structure matches the resource schema            # com.testing.api.stepDefinitions.ResourceSteps.theResponseStructureMatchesTheResourceSchema()
+  And the response body data should reflect the updated values      # com.testing.api.stepDefinitions.ResourceSteps.theResponseBodyDataShouldReflectTheUpdatedValues()
+  And delete all resources registered in this scenario              # com.testing.api.stepDefinitions.ResourceSteps.deleteAllResourcesRegisteredInThisScenario()

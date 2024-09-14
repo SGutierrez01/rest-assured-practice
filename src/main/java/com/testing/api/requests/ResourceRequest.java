@@ -78,8 +78,7 @@ public class ResourceRequest extends BaseRequest{
         List<Resource> resources = jsonFileReader.getResourcesByJson(Constants.DEFAULT_RESOURCES_FILE_PATH, numberOfResources, isActive);
 
         for (Resource resource : resources) {
-            String endpoint = String.format(Constants.URL, Constants.RESOURCES_PATH);
-            Response response = requestPost(endpoint, createBaseHeaders(), resource);
+            Response response = createResource(resource);
             if (response.statusCode() != 201) {
                 System.out.println("Resource creation failed for client: " + resource.getName() + " with status code: " + response.statusCode());
             } else {

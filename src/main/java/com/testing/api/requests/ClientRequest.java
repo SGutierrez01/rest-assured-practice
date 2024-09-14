@@ -22,6 +22,17 @@ public class ClientRequest extends BaseRequest {
     }
 
     /**
+     * Get client by id
+     * @param clientId string
+     * @return rest-assured response
+     */
+    public Response getClient(String clientId) {
+        // Use the full URL with the base URL and the client ID parameter
+        endpoint = String.format(Constants.BASE_URL + Constants.URL_WITH_PARAM, Constants.CLIENTS_PATH, clientId);
+        return requestGet(endpoint, createBaseHeaders());
+    }
+
+    /**
      * Get the list of all clients
      * @return rest-assured response
      */
@@ -82,8 +93,7 @@ public class ClientRequest extends BaseRequest {
         List<Client> defaultClients = jsonFileReader.getRandomClientsWithRequiredName(Constants.DEFAULT_CLIENTS_FILE_PATH, numberOfClient, requiredName);
 
         for (Client client : defaultClients) {
-            String endpoint = String.format(Constants.BASE_URL + Constants.URL, Constants.CLIENTS_PATH);
-            Response response = requestPost(endpoint, createBaseHeaders(), client);
+            Response response = createClient(client);
 
             if (response.statusCode() != 201) {
                 System.out.println("Client creation failed for client: " + client.getName() + " with status code: " + response.statusCode());
