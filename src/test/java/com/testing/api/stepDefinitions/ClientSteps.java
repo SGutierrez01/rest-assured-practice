@@ -32,6 +32,19 @@ public class ClientSteps {
         List<Client> clientList = clientRequest.getClientsEntity(response);
         if (clientList.size() < 10) {
             clientRequest.createDefaultClients(numberOfClients-clientList.size(), name);
+        }else{
+            boolean found = false;
+            logger.info("There are already " + clientList.size()
+                    + " clients in the system" + "and need to verify if "
+                    + name + " is in the system");
+            for (int i = 0; i < clientList.size() && !found; i++) {
+                if (clientList.get(i).getName().equalsIgnoreCase(name)) {
+                    found = true;
+                }
+            }
+            if (!found) {
+                clientRequest.createDefaultClients(1, name);
+            }
         }
     }
 

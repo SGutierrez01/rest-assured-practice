@@ -1693,3 +1693,138 @@
 2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
 2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
 2024-09-13 21:20:47.821 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:29:12.098 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:29:12.100 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 21:29:12.100 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:29:13.612 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "Brooke",
+        "lastName": "Jaskolski",
+        "country": "Solomon Islands",
+        "city": "Anselberg",
+        "email": "Craig_Gleichner@hotmail.com",
+        "phone": "1-481-810-1529 x40831",
+        "id": "1"
+    },
+    {
+        "name": "Adelbert",
+        "lastName": "Lynch",
+        "country": "Timor-Leste",
+        "city": "Huelfort",
+        "email": "Johnny_Bailey@yahoo.com",
+        "phone": "356.490.9401 x1255",
+        "id": "2"
+    },
+    {
+        "name": "Cathryn",
+        "lastName": "Okuneva",
+        "country": "Swaziland",
+        "city": "Domenicville",
+        "email": "Francesca96@yahoo.com",
+        "phone": "1-427-272-6394 x2656",
+        "id": "3"
+    },
+    {
+        "name": "Hans",
+        "lastName": "Block",
+        "country": "British Indian Ocean Territory (Chagos Archipelago)",
+        "city": "West Vladimir",
+        "email": "Freida60@hotmail.com",
+        "phone": "1-891-984-3047",
+        "id": "4"
+    },
+    {
+        "name": "Cara",
+        "lastName": "Kassulke",
+        "country": "Vietnam",
+        "city": "Lake Dorafield",
+        "email": "Clemens_Tremblay@gmail.com",
+        "phone": "1-201-808-7370 x08501",
+        "id": "5"
+    },
+    {
+        "name": "Norris",
+        "lastName": "O'Conner",
+        "country": "Serbia",
+        "city": "North Nels",
+        "email": "Theron88@yahoo.com",
+        "phone": "1-740-561-1842 x6826",
+        "id": "6"
+    },
+    {
+        "name": "Liza",
+        "lastName": "O'Connell",
+        "country": "Qatar",
+        "city": "Port Lessiehaven",
+        "email": "Jayne_Leannon@hotmail.com",
+        "phone": "(898) 897-2468",
+        "id": "7"
+    },
+    {
+        "name": "Rossie",
+        "lastName": "Swift",
+        "country": "Barbados",
+        "city": "Fort Francesborough",
+        "email": "Lynn.Kreiger@gmail.com",
+        "phone": "772.278.2947",
+        "id": "8"
+    },
+    {
+        "name": "Braxton",
+        "lastName": "Osinski",
+        "country": "Sweden",
+        "city": "Binsboro",
+        "email": "Juston31@gmail.com",
+        "phone": "792-251-1909 x8072",
+        "id": "9"
+    },
+    {
+        "name": "Juanita",
+        "lastName": "Donnelly",
+        "country": "Turks and Caicos Islands",
+        "city": "West Matteo",
+        "email": "Hannah.Adams7@gmail.com",
+        "phone": "247.725.3125 x9853",
+        "id": "10"
+    }
+]
+2024-09-13 21:29:13.794 INFO [api.stepDefinitions.ClientSteps:37] - There are already 10 clients in the systemand need to verify if Laura is in the system
+2024-09-13 21:29:14.565 INFO [api.stepDefinitions.ClientSteps:66] - Found client named Laura with phone number: (704) 375-4740 x9220
+2024-09-13 21:29:14.566 INFO [api.stepDefinitions.ClientSteps:86] - Saving the current phone number: (704) 375-4740 x9220
+2024-09-13 21:29:14.569 INFO [api.stepDefinitions.ClientSteps:74] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 21:29:14.901 INFO [api.stepDefinitions.ClientSteps:80] - Updated phone number to: 555-1234
+2024-09-13 21:29:14.912 INFO [api.stepDefinitions.ClientSteps:93] - Phone number updated successfully: 555-1234
+2024-09-13 21:29:14.914 INFO [api.stepDefinitions.ClientSteps:103] - {
+    "name": "Laura",
+    "lastName": "Hagenes",
+    "country": "Zambia",
+    "city": "Romabury",
+    "email": "Viviane57@gmail.com",
+    "phone": "555-1234",
+    "id": "11"
+}
+2024-09-13 21:29:15.091 INFO [api.stepDefinitions.ClientSteps:106] - Successfully validated schema from Client object
+2024-09-13 21:29:15.091 INFO [api.stepDefinitions.ClientSteps:112] - Cleaning up: Deleting all created clients...
+2024-09-13 21:29:19.086 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:29:19.087 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 21:29:19.087 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
+2024-09-13 21:29:19.096 INFO [api.stepDefinitions.Hooks:21] - *****************************************************************************************
+2024-09-13 21:29:19.097 INFO [api.stepDefinitions.Hooks:22] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 21:29:19.097 INFO [api.stepDefinitions.Hooks:23] - *****************************************************************************************
+2024-09-13 21:29:19.431 INFO [api.stepDefinitions.ResourceSteps:26] - [
+    
+]
+2024-09-13 21:29:21.482 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=1, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 21:29:21.483 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=2, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 21:29:21.483 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=3, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 21:29:21.483 INFO [api.stepDefinitions.ResourceSteps:54] - Active resource: Resource(id=4, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 21:29:21.483 INFO [api.stepDefinitions.ResourceSteps:57] - Total active resources found: 4
+2024-09-13 21:29:21.835 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 1
+2024-09-13 21:29:22.170 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 2
+2024-09-13 21:29:22.507 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 3
+2024-09-13 21:29:22.815 INFO [api.stepDefinitions.ResourceSteps:75] - Updated resource to inactive: 4
+2024-09-13 21:29:22.827 INFO [api.stepDefinitions.ResourceSteps:88] - Response matches the resource schema
+2024-09-13 21:29:22.828 INFO [api.stepDefinitions.ResourceSteps:93] - Cleaning up: Deleting all created resources...
+2024-09-13 21:29:24.703 INFO [api.stepDefinitions.Hooks:29] - *****************************************************************************************
+2024-09-13 21:29:24.704 INFO [api.stepDefinitions.Hooks:30] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 21:29:24.704 INFO [api.stepDefinitions.Hooks:31] - *****************************************************************************************
