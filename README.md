@@ -34,17 +34,23 @@ This project is designed to demonstrate automated testing of RESTful APIs using 
 
 ### Test Cases
 
-1. **Resource Activation Test**
-   - **File**: `ActivateResource.feature`
-   - **Description**: Tests the ability to activate an inactive resource and verify the new state.
+1. **Change the Phone Number of the First Client Named Laura**
+   - **File**: `client_testing_crud.feature`
+   - **Description**: Tests changing the phone number of the first client named Laura, ensuring that the updated phone number is different from the original, and validating the response structure and status.
 
-2. **Client Update and Delete Test**
-   - **File**: `ClientUpdateAndDelete.feature`
-   - **Description**: Tests updating client details and then deleting the client, ensuring clean up and state validation.
+2. **Get the List of Active Resources and Update Them to Inactive**
+   - **File**: `resource_testing_crud.feature`
+   - **Description**: Identifies all active resources and updates them to inactive, verifying the update operation through response status and schema validation.
 
-3. **Bulk Resource Update Test**
-   - **File**: `BulkResourceUpdate.feature`
-   - **Description**: Tests updating multiple resources in a single operation, ensuring transactional integrity and rollback on failures.
+3. **Update and Delete a New Client**
+   - **File**: `client_testing_crud.feature`
+   - **Description**: Involves creating a new client, updating their details, and then deleting the client, with verifications for response status, schema, and data correctness post-update.
+
+4. **Update the Last Created Resource**
+   - **File**: `resource_testing_crud.feature`
+   - **Description**: Focuses on finding the last created resource, updating all its parameters, and ensuring the updates are reflected correctly in the response data along with standard response validations.
+
+Each of these test cases is designed to ensure flexibility and maintainability, suited for future changes in endpoints or test data, and structured to run automatically and independently without errors. The source code follows best coding practices, including proper use of Git Repository, README documentation, and JavaDoc where appropriate.
 
 ### Utilities
 
@@ -63,6 +69,7 @@ Tests can be executed from the command line using Maven:
 ```bash
 mvn test
 
+```
 ---
 
 **Author**: Santiago Gutiérrez  
