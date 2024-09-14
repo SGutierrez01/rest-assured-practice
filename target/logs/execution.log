@@ -335,3 +335,502 @@
 2024-09-13 22:56:32.053 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
 2024-09-13 22:56:32.053 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the last created resource
 2024-09-13 22:56:32.054 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 23:09:06.708 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 23:09:06.710 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the phone number of the first client named Laura
+2024-09-13 23:09:06.710 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 23:09:08.252 INFO [api.stepDefinitions.ClientSteps:38] - [
+    
+]
+2024-09-13 23:09:13.162 INFO [api.stepDefinitions.ClientSteps:77] - Found client named Laura with phone number: 1-617-805-0811 x967
+2024-09-13 23:09:13.163 INFO [api.stepDefinitions.ClientSteps:105] - Saving the current phone number: 1-617-805-0811 x967
+2024-09-13 23:09:13.167 INFO [api.stepDefinitions.ClientSteps:90] - Attempting to update the phone number of Laura to: 555-1234
+2024-09-13 23:09:13.496 INFO [api.stepDefinitions.ClientSteps:96] - Updated phone number to: 555-1234
+2024-09-13 23:09:13.504 INFO [api.stepDefinitions.ClientSteps:115] - Phone number updated successfully: 555-1234
+2024-09-13 23:09:13.506 INFO [api.stepDefinitions.ClientSteps:132] - {
+    "name": "Laura",
+    "lastName": "Leffler",
+    "country": "Mali",
+    "city": "Brennanchester",
+    "email": "Hadley_McGlynn72@yahoo.com",
+    "phone": "555-1234",
+    "id": "1"
+}
+2024-09-13 23:09:13.659 INFO [api.stepDefinitions.ClientSteps:135] - Successfully validated schema from Client object
+2024-09-13 23:09:13.660 INFO [api.stepDefinitions.ClientSteps:143] - Cleaning up: Deleting all created clients...
+2024-09-13 23:09:17.391 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 23:09:17.392 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the phone number of the first client named Laura
+2024-09-13 23:09:17.392 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 23:09:17.402 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 23:09:17.402 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update and Delete a new client with name "John"
+2024-09-13 23:09:17.403 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 23:09:18.065 INFO [api.stepDefinitions.ClientSteps:180] - Created client: Client(name=John, lastName=Simonis, country=Uganda, city=New Shanelside, email=Marcus.Stokes@gmail.com, phone=1-501-273-1458 x51744, id=1)
+2024-09-13 23:09:18.395 INFO [api.stepDefinitions.ClientSteps:191] - Retrieved client: {
+    "name": "John",
+    "lastName": "Simonis",
+    "country": "Uganda",
+    "city": "New Shanelside",
+    "email": "Marcus.Stokes@gmail.com",
+    "phone": "1-501-273-1458 x51744",
+    "id": "1"
+}
+2024-09-13 23:09:18.737 INFO [api.stepDefinitions.ClientSteps:203] - Updated client response: {
+    "name": "John",
+    "lastName": "Simonis",
+    "country": "Uganda",
+    "city": "San Francisco",
+    "email": "Marcus.Stokes@gmail.com",
+    "phone": "1-501-273-1458 x51744",
+    "id": "1"
+}
+2024-09-13 23:09:18.749 INFO [api.stepDefinitions.ClientSteps:214] - Client response matches the JSON schema
+2024-09-13 23:09:19.090 INFO [api.stepDefinitions.ClientSteps:223] - Deleted client response: 200
+2024-09-13 23:09:19.414 INFO [api.stepDefinitions.ClientSteps:234] - Verified client no longer exists: 500
+2024-09-13 23:09:19.415 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 23:09:19.416 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update and Delete a new client with name "John"
+2024-09-13 23:09:19.416 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 23:09:19.430 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 23:09:19.430 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Get the list of active resources and update them to inactive
+2024-09-13 23:09:19.430 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 23:09:19.796 INFO [api.stepDefinitions.ResourceSteps:35] - [
+    {
+        "name": "Aerodynamic Marble Gloves",
+        "trademark": "Bernier LLC",
+        "stock": 489,
+        "price": 389440.47,
+        "description": "[a, dignissimos, incidunt, neque, error, exercitationem]",
+        "tags": "id",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Synergistic Marble Table",
+        "trademark": "Rosenbaum-MacGyver",
+        "stock": 441,
+        "price": 942405.5,
+        "description": "[dolores, molestiae, natus, iure, ipsum, possimus]",
+        "tags": "id",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Durable Copper Lamp",
+        "trademark": "Koch-Ledner",
+        "stock": 596,
+        "price": 58154.25,
+        "description": "[est, magnam, voluptatibus, temporibus, quas, maiores]",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Ergonomic Concrete Bench",
+        "trademark": "Bogan-Becker",
+        "stock": 3,
+        "price": 235720.48,
+        "description": "[voluptate, reiciendis, voluptates, ut, facilis, optio]",
+        "tags": "id",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Ergonomic Rubber Shirt",
+        "trademark": "Wolf, Haag and Waters",
+        "stock": 174,
+        "price": 84129.48,
+        "description": "[magnam, quos, assumenda, magni, perspiciatis, a]",
+        "tags": "id",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Fantastic Bronze Plate",
+        "trademark": "Farrell-O'Hara",
+        "stock": 845,
+        "price": 150740.19,
+        "description": "Excepturi mollitia cum at. Explicabo itaque consequatur adipisci vitae sed asperiores dignissimos. Rerum occaecati cupiditate asperiores officiis minus. Quae perferendis perspiciatis sunt blanditiis consequuntur soluta repudiandae. Occaecati quisquam totam quos cupiditate.",
+        "tags": "id",
+        "active": false,
+        "id": "15"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "18"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "19"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 999.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "20"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "21"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "22"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "23"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "24"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 999.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "25"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "26"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "27"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "28"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 29.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "29"
+    },
+    {
+        "name": "Default Resource",
+        "trademark": "Trademark Example",
+        "stock": 100,
+        "price": 999.99,
+        "description": "This is a default resource description.",
+        "tags": "id",
+        "active": false,
+        "id": "30"
+    },
+    {
+        "name": "Durable Granite Shirt",
+        "trademark": "Mueller, Krajcik and Wintheiser",
+        "stock": 169,
+        "price": 206.89,
+        "description": "Architecto temporibus quaerat porro quasi tenetur deserunt nobis ducimus expedita.",
+        "tags": "[consequuntur, eligendi, praesentium]",
+        "active": false,
+        "id": "31"
+    },
+    {
+        "name": "Mediocre Wooden Table",
+        "trademark": "Sawayn Inc",
+        "stock": 324,
+        "price": 482.36,
+        "description": "Non asperiores cum suscipit architecto et rerum provident delectus deserunt.",
+        "tags": "[aliquid, doloremque, animi]",
+        "active": false,
+        "id": "32"
+    },
+    {
+        "name": "Fantastic Iron Car",
+        "trademark": "Bartoletti Inc",
+        "stock": 141,
+        "price": 321.68,
+        "description": "Dolores consequatur perferendis provident nemo ea tempore tempora recusandae explicabo deleniti cum dignissimos.",
+        "tags": "[quo, sapiente, voluptatibus]",
+        "active": false,
+        "id": "33"
+    },
+    {
+        "name": "Fantastic Rubber Wallet",
+        "trademark": "Hayes LLC",
+        "stock": 158,
+        "price": 159.46,
+        "description": "Voluptate a non beatae accusantium consequatur odit quibusdam totam in suscipit rerum.",
+        "tags": "[sed, occaecati, iste]",
+        "active": false,
+        "id": "34"
+    },
+    {
+        "name": "Lightweight Paper Bottle",
+        "trademark": "Cummings-Thompson",
+        "stock": 875,
+        "price": 115646.29,
+        "description": "Sequi facere voluptas odit mollitia aspernatur reiciendis impedit. Placeat ratione hic accusamus reiciendis molestiae dolore aspernatur. Eligendi qui dicta. Eum asperiores nobis cum placeat.",
+        "tags": "id",
+        "active": false,
+        "id": "35"
+    },
+    {
+        "name": "Enormous Steel Computer",
+        "trademark": "Cruickshank Inc",
+        "stock": 832,
+        "price": 474.49,
+        "description": "Corrupti facere error harum sapiente quas sed accusantium unde dicta eius fugiat hic.",
+        "tags": "[beatae, ullam, assumenda]",
+        "active": false,
+        "id": "36"
+    },
+    {
+        "name": "Durable Cotton Car",
+        "trademark": "Langworth, Hills and Bergstrom",
+        "stock": 434,
+        "price": 29.69,
+        "description": "Nam itaque doloribus est distinctio soluta qui facere quas provident asperiores.",
+        "tags": "[laboriosam, magni, accusantium]",
+        "active": false,
+        "id": "37"
+    },
+    {
+        "name": "Aerodynamic Copper Clock",
+        "trademark": "Conn-Wilderman",
+        "stock": 378,
+        "price": 345.61,
+        "description": "Nisi dignissimos pariatur amet culpa suscipit eum possimus beatae dolorum sed quae aliquam numquam quis.",
+        "tags": "[molestiae, dicta, deleniti]",
+        "active": false,
+        "id": "38"
+    },
+    {
+        "name": "Small Paper Computer",
+        "trademark": "Hahn LLC",
+        "stock": 833,
+        "price": 123.54,
+        "description": "Perspiciatis aliquid magnam sit excepturi dolor dignissimos fuga eaque pariatur consequuntur eligendi.",
+        "tags": "[reprehenderit, dolore, rerum]",
+        "active": false,
+        "id": "39"
+    },
+    {
+        "name": "Fantastic Bronze Bag",
+        "trademark": "Morissette, Grady and Metz",
+        "stock": 981,
+        "price": 194954.23,
+        "description": "Ipsam libero libero aut provident pariatur deleniti sequi. Eius placeat eum mollitia enim maiores esse quia. Rerum sint magnam est veniam. Cum reiciendis in quasi possimus quo fuga. Placeat deleniti sapiente dignissimos.",
+        "tags": "id",
+        "active": true,
+        "id": "40"
+    }
+]
+2024-09-13 23:09:22.504 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=40, name=Fantastic Bronze Bag, trademark=Morissette, Grady and Metz, stock=981, price=194954.23, description=Ipsam libero libero aut provident pariatur deleniti sequi. Eius placeat eum mollitia enim maiores esse quia. Rerum sint magnam est veniam. Cum reiciendis in quasi possimus quo fuga. Placeat deleniti sapiente dignissimos., tags=id, active=true)
+2024-09-13 23:09:22.504 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=41, name=Bike, trademark=Jones Group, stock=4206, price=23702.66, description=Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals, tags=id, active=true)
+2024-09-13 23:09:22.504 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=42, name=Sausages, trademark=Mayer - Friesen, stock=58873, price=98985.64, description=The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality, tags=name, active=true)
+2024-09-13 23:09:22.505 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=43, name=Shoes, trademark=Rowe, Ritchie and Kunde, stock=63645, price=63152.26, description=New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart, tags=id, active=true)
+2024-09-13 23:09:22.505 INFO [api.stepDefinitions.ResourceSteps:65] - Active resource: Resource(id=44, name=Sausages, trademark=Streich Inc, stock=91856, price=64325.9, description=New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016, tags=password, active=true)
+2024-09-13 23:09:22.505 INFO [api.stepDefinitions.ResourceSteps:68] - Total active resources found: 5
+2024-09-13 23:09:22.853 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 40
+2024-09-13 23:09:23.176 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 41
+2024-09-13 23:09:23.523 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 42
+2024-09-13 23:09:23.876 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 43
+2024-09-13 23:09:24.222 INFO [api.stepDefinitions.ResourceSteps:91] - Updated resource to inactive: 44
+2024-09-13 23:09:24.231 INFO [api.stepDefinitions.ResourceSteps:188] - Resource response matches the JSON schema
+2024-09-13 23:09:24.232 INFO [api.stepDefinitions.ResourceSteps:108] - Cleaning up: Deleting all created resources...
+2024-09-13 23:09:42.552 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 23:09:42.553 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Get the list of active resources and update them to inactive
+2024-09-13 23:09:42.553 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
+2024-09-13 23:09:42.560 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 23:09:42.560 INFO [api.stepDefinitions.Hooks:27] - 	Scenario: Update the last created resource
+2024-09-13 23:09:42.560 INFO [api.stepDefinitions.Hooks:28] - *****************************************************************************************
+2024-09-13 23:09:42.873 INFO [api.stepDefinitions.ResourceSteps:134] - [
+    
+]
+2024-09-13 23:09:42.875 INFO [api.stepDefinitions.ResourceSteps:141] - Creating 15 additional resources to meet the required 15
+2024-09-13 23:09:47.706 INFO [api.stepDefinitions.ResourceSteps:145] - Resources in the system: 0
+2024-09-13 23:09:48.032 INFO [api.stepDefinitions.ResourceSteps:160] - Retrieved latest resource: Resource(id=9, name=Chicken, trademark=Schulist - Weimann, stock=32547, price=14478.81, description=The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients, tags=avatar, active=false)
+2024-09-13 23:09:48.337 INFO [api.stepDefinitions.ResourceSteps:177] - Updated resource response: {
+    "name": "Updated Name",
+    "trademark": "Updated Trademark",
+    "stock": 100,
+    "price": 99.99,
+    "description": "Updated Description",
+    "tags": "Updated,Tags",
+    "active": true,
+    "id": "9"
+}
+2024-09-13 23:09:48.345 INFO [api.stepDefinitions.ResourceSteps:188] - Resource response matches the JSON schema
+2024-09-13 23:09:48.346 INFO [api.stepDefinitions.ResourceSteps:206] - Verified all resource updates are correctly reflected in the response
+2024-09-13 23:09:48.347 INFO [api.stepDefinitions.ResourceSteps:108] - Cleaning up: Deleting all created resources...
+2024-09-13 23:09:53.491 INFO [api.stepDefinitions.Hooks:38] - *****************************************************************************************
+2024-09-13 23:09:53.491 INFO [api.stepDefinitions.Hooks:39] - Scenario finished: Update the last created resource
+2024-09-13 23:09:53.491 INFO [api.stepDefinitions.Hooks:40] - *****************************************************************************************
